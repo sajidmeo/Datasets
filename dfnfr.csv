@@ -1,0 +1,1492 @@
+,query,nfr,nfr_id
+8,system shall mdi form allows viewing graph data table,functional requirement,5
+9,system shall display event vertical table time,functional requirement,5
+10,system shall display event graph time,functional requirement,5
+11,system shall display event activity,functional requirement,5
+12,display shall two region left 2 3 display graphical right 1 3 display data table,functional requirement,5
+13,data displayed node within graph row table msel summary data,functional requirement,5
+14,table side display shall split 2 region sequential temporal,functional requirement,5
+15,top 1 4 table hold event occur sequentially,functional requirement,5
+16,bottom 3 4 table hold event occur according relevance current time,functional requirement,5
+17,system shall color code event according variance current time,functional requirement,5
+18,system shall display data sync matrix 1 0 exercise management tool 1 0 application,functional requirement,5
+19,system shall link event back either sync matrix 1 0 exercise managment tool 1 0 application modification,functional requirement,5
+20,system shall allow modification display,functional requirement,5
+21,system shall offer display event exercise,functional requirement,5
+22,system shall filter data venue key event,functional requirement,5
+23,system shall allow user define time segment,functional requirement,5
+24,system shall display local exercise time separate clock,functional requirement,5
+25,system shall offer ability pause resume refresh data,functional requirement,5
+26,system shall provide chart activity event actual versus assumed time,functional requirement,5
+27,system shall provide history report change made activity event data,functional requirement,5
+57,system shall allow real estate agent query ml information,functional requirement,5
+58,user shall able get driving direction selected property,functional requirement,5
+59,user shall able download appointment contact information client,functional requirement,5
+60,system shall display clear property image search result,functional requirement,5
+61,system shall update create new property listing ml,functional requirement,5
+62,realtor shall able generate cma report based property criterion,functional requirement,5
+63,system shall able call seller buyer schedule appointment,functional requirement,5
+64,realtor shall notified new client appointment automatic synchronization office system,functional requirement,5
+65,realtor shall able retrieve map showing property location specified area,functional requirement,5
+66,system shall notify realtor seller buyer responds appointment request,functional requirement,5
+67,product shall allow user save property search result,functional requirement,5
+101,cohort shall associated one program study offered department,functional requirement,5
+102,program administrator nursing staff member shall able add listing student cohort,functional requirement,5
+103,program administrator nursing staff member shall able add single student cohort,functional requirement,5
+104,student added cohort shall eligible cohort program study,functional requirement,5
+105,program administrator nursing staff member shall able specify preferred sequence class given cohort,functional requirement,5
+106,class within sequence cohort program administrator nursing staff member shall able specify quarter class offered,functional requirement,5
+107,class within sequence cohort program administrator nursing staff member shall able specify quarter class offered,functional requirement,5
+108,program administrator nursing staff member shall able add new class sequence class,functional requirement,5
+109,program administrator nursing staff member shall able add clinical class section sequence class,functional requirement,5
+110,program administrator nursing staff member shall able add new cohort system identified start month year,functional requirement,5
+111,program administrator nursing staff member shall able add new class nursing department system,functional requirement,5
+112,class shall either non clinical class clinical class,functional requirement,5
+113,non clinical class shall specify course name lecture room requirement instructor need,functional requirement,5
+114,clinical class shall specify course name lecture room requirement clinical site need lecture instructor need clinical lab instructor need,functional requirement,5
+115,program administrator nursing staff member shall able create new program study,functional requirement,5
+116,program study shall consist program name listing required class clinical non clinical must completed,functional requirement,5
+117,program administrator nursing staff member shall ability specify class required program study,functional requirement,5
+118,system shall able display report needed class given quarter cohort program program administrator nursing staff member planning purpose,functional requirement,5
+119,report needed class shall include limited class offered number section needed number lab needed room type needed,functional requirement,5
+120,class given cohort shall conflict regard time day offered,functional requirement,5
+121,program administrator nursing staff member shall able add new clinical site system,functional requirement,5
+122,clinical site information shall include limited name site contact person contact information,functional requirement,5
+123,program administrator nursing staff member shall able add new clinical lab section existing clinical class system,functional requirement,5
+124,clinical lab section shall include clinical site name class instructor day time lab,functional requirement,5
+125,program administrator nursing staff member shall able add student registered clinical class clinical lab section class,functional requirement,5
+126,system shall allow program administrator nursing staff member remove student clinical lab section,functional requirement,5
+127,system shall allow program administrator nursing staff member move student one clinical lab section another clinical lab section corresponding clinical class,functional requirement,5
+128,program administrator nursing staff member shall able cancel clinical lab section student registered clinical lab section,functional requirement,5
+129,program administrator nursing staff member shall able add new nursing student system,functional requirement,5
+130,staff member shall ability manage progress part time student includes modifying sequence class timeline class,functional requirement,5
+131,system shall able display printable summary individual cohort include student enlisted program study sequence class cohort progress program timeline completion,functional requirement,5
+132,system shall able display printable summary individual clinical site include information lab held site given quarter clinical site general information lab held location date time lab held,functional requirement,5
+133,system shall able display printable summary individual clinical lab include limited class name class number lab section listing student enrolled instructor day time location,functional requirement,5
+134,system shall able display printable summary individual nursing student include limited student name student id admission date class credit gpa cohort student enrolled,functional requirement,5
+135,system shall able display printable summary system log,functional requirement,5
+136,system shall contain contact information e mail phone number people relevant system including limited staff member student lecture instructor clinical lab instructor clinical site administrator,functional requirement,5
+137,system use stored e mail address primary mean communicating information affected party,functional requirement,5
+138,system notify affected party routine communication purpose including limited informing student upcoming offered class timeline schedule shall,functional requirement,5
+139,system notify affected party change occur affecting clinicals including limited clinical section capacity change clinical section cancellation,functional requirement,5
+140,system notify affected party change occur affecting class including limited class cancellation class section detail change change class offering given quarter,functional requirement,5
+141,system notify affected party change occur affecting cohort including limited change sequence cohort program study change given week schedule lab cancelled week due instructor illness,functional requirement,5
+142,system notify affected party change occur affecting specific student including limited changing student status full time part time moving student different clinical section,functional requirement,5
+143,program administrator nursing staff member shall ability modify information relating cohort including cohort identifier program study preferred sequence class quarter cohort taking specific class,functional requirement,5
+144,program administrator nursing staff member shall ability modify information relating program study within nursing department including program study name required class program study,functional requirement,5
+145,program administrator nursing staff member shall ability modify information relating clinical site including clinical site name site contact person contact information address,functional requirement,5
+146,program administrator nursing staff member shall ability modify information relating clinical lab section including clinical site name department section lab class instructor day time lab contact information,functional requirement,5
+147,program administrator nursing staff member shall ability modify information relating nursing student including student id student name phone number e mail status full time part time program study,functional requirement,5
+178,dispute system must accessible internal external user,functional requirement,5
+179,dispute system must prevent user accessing dispute case belong cardholder base,functional requirement,5
+180,dispute system facilitate direct data entry dispute case via user interface support real time response user,functional requirement,5
+181,dispute system must provide different level access regard dispute case initiation follow action,functional requirement,5
+182,dispute system shall provide view access capability authorized user application,functional requirement,5
+183,dispute system shall provide update access capability authorized user application,functional requirement,5
+184,dispute system must allow user select disputable transaction based age transaction user interface initiate dispute ticket retrieval request chargeback notification selected transaction,functional requirement,5
+185,dispute system must provide user ability initiate single dispute case multiple transaction belong single merchant,functional requirement,5
+186,dispute system provide user ability create initiate ticket retrieval request part ticket retrieval creation process system must prompt user enter required information create ticket retrieval request ticket retrieval request document sent merchant inquiring validity transaction,functional requirement,5
+187,dispute system must allow user create three unique type ticket retrieval request three type ticket retrieval request 1 request original receipt 2 request copy receipt 3 request portfolio portfolio consists documentation would provide proof purchase documentation received car rental agency sale receipt,functional requirement,5
+188,dispute system must prevent external user requesting original receipt request original receipt restricted internal user,functional requirement,5
+189,dispute system must provide confirmation user upon creation ticket retrieval request contains following information dispute case number type retrieval requested copy original portfolio date merchant response due,functional requirement,5
+190,dispute system shall allow user create initiate chargeback request system must prompt user enter required information initiate chargeback request chargeback request result printed chargeback notification sent merchant indicating account charged back proof provided disputed transaction valid,functional requirement,5
+191,dispute system must provide confirmation user upon creation chargeback request confirmation must contain following information dispute case number type chargeback requested pending immediate date merchant response due,functional requirement,5
+192,dispute system shall prevent creation duplicate dispute request 100 time,functional requirement,5
+193,dispute system shall accurately provide list possible reason code given transaction list possible reason code must derived based type transaction industry merchant belongs according business rule defined dispute system,functional requirement,5
+194,dispute system must provide ability view existing dispute case,functional requirement,5
+195,dispute system must provide search functionality search method must include ability search 1 dispute case number 2 merchant account number 3 cardmember account number 4 issuer number addition criterion search functionality must allow user limit result search date range type dispute ticket retrieval request chargeback notification case status open closed dispute reason code,functional requirement,5
+196,list dispute case meet entered search criterion must provided user list case must differentiate type status case color coding line item list example open case yellow closed case gray,functional requirement,5
+197,dispute system shall provide user ability view history activity occurred dispute case,functional requirement,5
+198,dispute system shall provide user ability follow dispute case via follow action list available follow action given dispute case must filtered status case access level user,functional requirement,5
+199,dispute system shall record name user date activity creates modifies dispute case system detailed history action taken case including date user performed action must maintained auditing purpose,functional requirement,5
+200,systematic non user initiated action occurs case dispute aging process case activity generated upon next logon user initiated dispute case must notified systematic action occurred dispute case,functional requirement,5
+201,letter request must formatted according guideline specified print letter utility system,functional requirement,5
+202,dispute case closed 6 month must purged online dispute database,functional requirement,5
+240,user shall search preferred repair facility using vehicle vehicle location radius mile,functional requirement,5
+241,vehicle data shall include vehicle year make model,functional requirement,5
+242,vehicle location shall include street address city state zipcode,functional requirement,5
+243,system shall resolve zipcode street address city state zipcode unknown,functional requirement,5
+244,search radius shall 1 30 mile,functional requirement,5
+245,system shall locate preferred repair facility highest rating input criterion,functional requirement,5
+246,adjuster shall enter preferred repair facility estimate assignment,functional requirement,5
+247,adjuster shall able override preferred repair facitlity estimate assignment,functional requirement,5
+248,preferred repair facility shall returned user,functional requirement,5
+249,system shall return list repair facility within radius preferred repair facility cannot determined,functional requirement,5
+250,estimator shall search available recycled part using damaged vehicle part information,functional requirement,5
+251,estimator shall search available recycled part using list preferred part supplier,functional requirement,5
+252,system shall search available recycled part supplied vehicle part supplier,functional requirement,5
+253,estimator shall search zipcode radius 30 mile part found preferred part supplier,functional requirement,5
+254,system shall retain available recycled part supplier returned search,functional requirement,5
+255,available recycled part information supplier shall returned user,functional requirement,5
+256,estimator shall apply selected recycled part collision estimate,functional requirement,5
+257,estimator shall apply recycled part collision estimate available part returned,functional requirement,5
+258,adjuster shall review collision estimate,functional requirement,5
+259,adjuster shall request recycled part audit collision estimate,functional requirement,5
+260,recycled part search result provided estimator shall retrieved system,functional requirement,5
+261,system shall generate audit report based available recycled part collision estimate,functional requirement,5
+262,audit report shall include total number recycled part used estimate,functional requirement,5
+263,audit report shall include number available recycled part original search result,functional requirement,5
+264,audit report shall include percentage available recycled part used estimate,functional requirement,5
+265,audit report shall include total score audit sum indivual line item,functional requirement,5
+266,audit report shall displayed user,functional requirement,5
+267,audit report shall available adjuster later point time,functional requirement,5
+268,user shall select view preferred repair facility rating,functional requirement,5
+269,current repair facility rating shall displayed user,functional requirement,5
+270,system display blank set rating rating yet defined,functional requirement,5
+271,user shall enter new rating based audit report,functional requirement,5
+272,rating shall scale 1 10,functional requirement,5
+273,rating shall include category attempted use recycled part actual use recycled part,functional requirement,5
+274,user shall select save preferred repair facility rating,functional requirement,5
+275,preferred repair facility rating shall saved system,functional requirement,5
+323,product shall record meeting entry,functional requirement,5
+324,product notify employee meeting invitation,functional requirement,5
+325,product shall ability send meeting reminder employee,functional requirement,5
+326,product shall assign organizer contact information meeting create,functional requirement,5
+327,product record meeting acknowledgement,functional requirement,5
+328,product shall store new conference room,functional requirement,5
+329,product shall update existing conference room,functional requirement,5
+330,product able delete conference room,functional requirement,5
+331,product shall able store new room equipment,functional requirement,5
+332,product update existing room equipment,functional requirement,5
+333,product shall able delete room equipment,functional requirement,5
+334,product shall allow organizer invite employee meeting,functional requirement,5
+335,time conference room reserved conference room schedule shall updated reflect time date reservation,functional requirement,5
+336,product shall record transportation status equipment reserved,functional requirement,5
+337,product shall display map company building showing conference room location,functional requirement,5
+338,product shall record updated meeting agenda,functional requirement,5
+339,product shall send meeting confirmation meeting organizer,functional requirement,5
+340,product shall display room equipment according search parameter,functional requirement,5
+341,product shall display conference room according search parameter,functional requirement,5
+342,product shall record different meeting type,functional requirement,5
+343,product shall record equipment reserved,functional requirement,5
+344,product shall notify building personnel equipment transport request,functional requirement,5
+345,product allow priviledged user view meeting schedule multiple reporting view,functional requirement,5
+346,product shall able send meeting notification via different kind end user specified method,functional requirement,5
+347,product shall customizable look feel,functional requirement,5
+348,product shall intuitive user interface,functional requirement,5
+349,product display available status unreserved conference room,functional requirement,5
+358,system shall allow generation inventory quantity adjustment document demand,functional requirement,5
+359,system shall allow demand generation inventory quantity adjustment document since certain point time,functional requirement,5
+360,iqa subsystem shall take account current inventory status adjust inventory substitutionary ingredient accordingly,functional requirement,5
+361,system shall allow entering storing modifying product formula,functional requirement,5
+362,product formula shall allow use semi product formula,functional requirement,5
+363,product formula ingredient shall allow defining substitutionary ingredient,functional requirement,5
+364,product formula substitutionary ingredient shall entered automatically pfe subsystem,functional requirement,5
+365,formula substitutionary ingredient shall kept persisted order,functional requirement,5
+366,product shall allow entering storing modifying product menu used po terminal,functional requirement,5
+367,pme subsystem shall allow building product menu based list product kept accounting system,functional requirement,5
+368,pme subsystem shall allow keeping submenu within menu product within submenu managed persisted order,functional requirement,5
+369,pme subsystem shall allow product exist one submenu,functional requirement,5
+370,rms system shall window xp look feel use gui future making use intuitive,functional requirement,5
+371,system shall generate inventory quantity adjustment document based product daily sale data product formula,functional requirement,5
+372,system shall generate inventory quantity adjustment document automatically daily product sale data available,functional requirement,5
+446,website allow customer search movie title actor director,functional requirement,5
+447,viewing movie detail website display movie description actor director entered administrator,functional requirement,5
+448,website shall request authorize credit card payment allowing user stream movie,functional requirement,5
+449,shall able stream purchased movie via window medium player 2 day aftere purchase date,functional requirement,5
+450,website shall allow customer browse movie category entered izogn administrator,functional requirement,5
+451,website shall allow customer view review selected movie customer,functional requirement,5
+452,website shall allow customer add movie review selected movie,functional requirement,5
+453,website shall allow izogn administrator approve review posted customer,functional requirement,5
+454,system allow customer pay streaming movie pre paid card,functional requirement,5
+455,website shall allow customer purchase pre paid card 5 10 20 value either credit card mail payment option,functional requirement,5
+456,system shall automatically update main page website every friday show 4 latest movie added website,functional requirement,5
+457,system shall allow user update billing contact information via account section website,functional requirement,5
+458,pre paid card shall distributed via email via printed paper card,functional requirement,5
+459,registered customer purchase streaming movie,functional requirement,5
+460,movie streamed customer purchased movie within 2 day time period stream movie,functional requirement,5
+461,website must able support free trial period various parameter set izogn manager,functional requirement,5
+462,streaming movie sale logged database accessible administrator,functional requirement,5
+463,registered customer information shall stored maintained database even customer cancel account,functional requirement,5
+464,daily usage statistic logged accessible administrator,functional requirement,5
+465,owner shall free access streaming movie,functional requirement,5
+474,vendor verify invalid lead,functional requirement,5
+475,vendor submit credit validation record applied enterprise billing system,functional requirement,5
+476,lead scored high range system supply lead data score enterprise system,functional requirement,5
+477,lead washing functionality validate lead received web service valid data,functional requirement,5
+478,lead washing functionality insert lead captured web service,functional requirement,5
+479,lead score fall within high average score process ara functionality,functional requirement,5
+480,lead score fall within medium average set manual verification enrollment coordinator eleads system,functional requirement,5
+481,lead score fall within low average returned supplying vendor,functional requirement,5
+482,lead washing functionality compile contact academic scoring information total score,functional requirement,5
+483,lead washing functionality use parameter supplied corporate school score part lead,functional requirement,5
+484,lead washing functionality return lead data supplied vendor along reason rejection,functional requirement,5
+485,lead washing functionality interface lead data parameter maintained,functional requirement,5
+486,lead washing functionality verify user authentication right make parameter update,functional requirement,5
+487,lead washing functionality store potential lead duplicate returned enterprise system,functional requirement,5
+488,prior submitting lead enterprise system lead washing functionality assign lead admission rep,functional requirement,5
+489,lead washing functionality shall receive period list available rep enterprise system,functional requirement,5
+505,product shall maintain list player,functional requirement,5
+506,product shall allow user identify player,functional requirement,5
+507,game initiated product shall make player assigned game unavailable selection list player,functional requirement,5
+508,product shall allow user remove list player time,functional requirement,5
+509,product shall make inactive player unavailable selection list player,functional requirement,5
+510,product shall remove player inactive 24 hour list player,functional requirement,5
+511,product shall allow player initiate game selecting another available player list player,functional requirement,5
+512,game initiated product shall display defensive grid player,functional requirement,5
+513,game initiated product shall display offensive grid player,functional requirement,5
+514,product shall prevent player viewing offensive defensive grid player,functional requirement,5
+515,game initiated product shall allow player position 5 ship respective defensive grid,functional requirement,5
+516,product shall allow player position ship horizontally grid,functional requirement,5
+517,product shall allow player position ship vertically grid,functional requirement,5
+518,product shall allow player position ship diagonally grid,functional requirement,5
+519,product shall prevent player overlapping ship grid,functional requirement,5
+520,player positioned 5 ship defensive grid product shall define status player first turn,functional requirement,5
+521,turn product shall identify one player offensive status one player defensive status,functional requirement,5
+522,product shall maintain status player turn either offensive defensive,functional requirement,5
+523,start turn product shall notify player status,functional requirement,5
+524,turn product shall allow offensive player define shot,functional requirement,5
+525,shot product shall examine defensive grid defensive player determine whether shot hit miss,functional requirement,5
+526,shot product shall notify player whether shot hit miss,functional requirement,5
+527,shot product shall mark shot hit miss defensive grid defensive player,functional requirement,5
+528,shot product shall mark shot hit miss offensive grid offensive player,functional requirement,5
+529,hit result sinking ship product shall notify player ship sunk,functional requirement,5
+530,hit result sinking ship product shall mark ship sunk defensive grid defensive player,functional requirement,5
+531,hit result sinking ship product shall indicate type ship sunk defensive grid defensive player,functional requirement,5
+532,hit result sinking ship product shall mark ship sunk offensive grid offensive player,functional requirement,5
+533,shot marked hit product shall allow offensive player define shot,functional requirement,5
+534,shot marked miss product shall change status offensive player defensive,functional requirement,5
+535,shot marked miss product shall change status defensive player offensive,functional requirement,5
+536,product shall continue assign turn game ended,functional requirement,5
+537,product shall end game hit offensive player result sinking last defensive player ship previously marked sunk,functional requirement,5
+538,product shall allow player end game time game,functional requirement,5
+539,game ended product shall notify player game ended,functional requirement,5
+540,notification game ending include reason game ended e player game player ended game,functional requirement,5
+541,game ended product shall allow player identify available player list player,functional requirement,5
+542,game ended product shall allow player remove list player,functional requirement,5
+93,authorized user shall access student personal information,security,4
+99,system shall built secure possible malicious interference,security,4
+596,wcs system shall allow automatic logins user cooky containing wcs login information user stored user computer,security,4
+231,adjuster supervisor role update preferred repair facility rating user without supervisor role cannot access repair facility rating,security,4
+232,collision estimator shall search recycled part user without collision estimator role shall access search recycled part,security,4
+92,program administrator nursing staff member people shall access clinical site detail,security,4
+629,holder current security clearance enter national headquarters building,security,4
+5,product shall ensure accessed authorized user product able distinguish authorized unauthorized user access attempt,security,4
+355,system shall granularly control access right major subsystem possible assign access right subsystem independently,security,4
+316,product shall ensure database data corresponds data entered user conference room reservation system contain information entered user,security,4
+100,system shall use organization standard virus protection software help monitor threat,security,4
+95,authorized user shall access portion system interface campusconnect,security,4
+437,credit card information encrypted database,security,4
+577,product shall audit capability product shall store message minimum one year audit transaction tracking purpose,security,4
+236,system shall prevent malicious attack including denial service,security,4
+628,employee shall allowed update salary information attempt shall reported security administrator,security,4
+432,data integrity script run weekly basis verify integrity database,security,4
+434,system shall notify customer change information policy,security,4
+437,credit card information encrypted database,security,4
+633,user shall receive notification profile change via preferred communication method record profile information modified,security,4
+625,employee shall forced change password next time log changed within length time established password expiration duration,security,4
+97,system shall basic data integrity checking reduce possibility incorrect invalid data introduced,security,4
+170,dispute application shall manipulate view business data user direct access data file database,security,4
+97,system shall basic data integrity checking reduce possibility incorrect invalid data introduced,security,4
+233,valid data shall entered system invalid data shall entered system,security,4
+233,valid data shall entered system invalid data shall entered system,security,4
+96,fit criterion dr susan poslusny karen sysol people shall access final class section scheduling system interface campusconnect,security,4
+597,team owner need use username password order authenticated reach team owner page,security,4
+234,one insurance company shall able view another insurance company claim data,security,4
+551,product shall ensure supervisor advertise empty time slot product must ensure supervisor allowed access advertise empty time slot,security,4
+316,product shall ensure database data corresponds data entered user conference room reservation system contain information entered user,security,4
+230,adjuster request recycled part audit report user without adjuster role shall request recycled part audit,security,4
+163,user update access must able initiate dispute request,security,4
+633,user shall receive notification profile change via preferred communication method record profile information modified,security,4
+167,addition new user modification user access shall recorded user report,security,4
+168,user account revoked instantiated system administrator,security,4
+95,authorized user shall access portion system interface campusconnect,security,4
+231,adjuster supervisor role update preferred repair facility rating user without supervisor role cannot access repair facility rating,security,4
+630,access permission system data may changed system data administrator,security,4
+93,authorized user shall access student personal information,security,4
+99,system shall built secure possible malicious interference,security,4
+163,user update access must able initiate dispute request,security,4
+627,payroll system shall ensure employee salary data accessed authorized user payroll system shall distinguish authorized non authorized user,security,4
+95,authorized user shall access portion system interface campusconnect,security,4
+162,dispute application shall ensure user appropriate access level allowed initiate dispute request,security,4
+429,authorized personnel access sale information,security,4
+91,authorized user shall access clinical site information,security,4
+631,password shall never viewable point entry time,security,4
+231,adjuster supervisor role update preferred repair facility rating user without supervisor role cannot access repair facility rating,security,4
+236,system shall prevent malicious attack including denial service,security,4
+427,authorized personnel access customer record database,security,4
+55,every user system shall authenticated authorized,security,4
+54,registered realtor shall able access system,security,4
+627,payroll system shall ensure employee salary data accessed authorized user payroll system shall distinguish authorized non authorized user,security,4
+433,website shall make user aware information practice collection data via privacy policy accessible page website,security,4
+437,credit card information encrypted database,security,4
+314,product shall ensure company employee external user company approved user id may product access 100 logons shall either company employee external user company approved user id,security,4
+99,system shall built secure possible malicious interference,security,4
+633,user shall receive notification profile change via preferred communication method record profile information modified,security,4
+99,system shall built secure possible malicious interference,security,4
+56,product shall prevent data incorrect data introduced,security,4
+167,addition new user modification user access shall recorded user report,security,4
+95,authorized user shall access portion system interface campusconnect,security,4
+96,fit criterion dr susan poslusny karen sysol people shall access final class section scheduling system interface campusconnect,security,4
+577,product shall audit capability product shall store message minimum one year audit transaction tracking purpose,security,4
+551,product shall ensure supervisor advertise empty time slot product must ensure supervisor allowed access advertise empty time slot,security,4
+425,registered customer purchase streaming movie,security,4
+551,product shall ensure supervisor advertise empty time slot product must ensure supervisor allowed access advertise empty time slot,security,4
+433,website shall make user aware information practice collection data via privacy policy accessible page website,security,4
+428,administrator activate pre paid card,security,4
+355,system shall granularly control access right major subsystem possible assign access right subsystem independently,security,4
+629,holder current security clearance enter national headquarters building,security,4
+317,product shall prevent input malicious data product adjacent hardware software system data shall remain 100 uncorrupted time malicious data input product,security,4
+5,product shall ensure accessed authorized user product able distinguish authorized unauthorized user access attempt,security,4
+163,user update access must able initiate dispute request,security,4
+168,user account revoked instantiated system administrator,security,4
+50,product shall capable handling existing 1000 user number expected grow 5 time within next year,security,4
+232,collision estimator shall search recycled part user without collision estimator role shall access search recycled part,security,4
+100,system shall use organization standard virus protection software help monitor threat,security,4
+98,system shall protect private information accordance organization information policy,security,4
+434,system shall notify customer change information policy,security,4
+162,dispute application shall ensure user appropriate access level allowed initiate dispute request,security,4
+433,website shall make user aware information practice collection data via privacy policy accessible page website,security,4
+436,customer information stored secure database accessible authorized personnel,security,4
+170,dispute application shall manipulate view business data user direct access data file database,security,4
+431,website shall protect intentional abuse notify administrator occurrence,security,4
+162,dispute application shall ensure user appropriate access level allowed initiate dispute request,security,4
+235,product shall free computer virus,security,4
+400,credit card information secured server accessible authorized izogn administrator information encrypted database,security,4
+96,fit criterion dr susan poslusny karen sysol people shall access final class section scheduling system interface campusconnect,security,4
+233,valid data shall entered system invalid data shall entered system,security,4
+162,dispute application shall ensure user appropriate access level allowed initiate dispute request,security,4
+100,system shall use organization standard virus protection software help monitor threat,security,4
+5,product shall ensure accessed authorized user product able distinguish authorized unauthorized user access attempt,security,4
+234,one insurance company shall able view another insurance company claim data,security,4
+629,holder current security clearance enter national headquarters building,security,4
+596,wcs system shall allow automatic logins user cooky containing wcs login information user stored user computer,security,4
+319,product shall ability receive automatic software update new threat emerge 100 customer able receive automatic software update transmitted installed product,security,4
+167,addition new user modification user access shall recorded user report,security,4
+598,commissioner authorized user per league adjust league setting,security,4
+619,authorized user shall access rf system user exist uas system rf system assigned role shall access rf system use,security,4
+577,product shall audit capability product shall store message minimum one year audit transaction tracking purpose,security,4
+230,adjuster request recycled part audit report user without adjuster role shall request recycled part audit,security,4
+577,product shall audit capability product shall store message minimum one year audit transaction tracking purpose,security,4
+633,user shall receive notification profile change via preferred communication method record profile information modified,security,4
+431,website shall protect intentional abuse notify administrator occurrence,security,4
+631,password shall never viewable point entry time,security,4
+317,product shall prevent input malicious data product adjacent hardware software system data shall remain 100 uncorrupted time malicious data input product,security,4
+95,authorized user shall access portion system interface campusconnect,security,4
+166,dispute system shall generate user report detail new user added change existing user access level report reviewed auditing purpose,security,4
+236,system shall prevent malicious attack including denial service,security,4
+426,customer stream movie purchased within 2 day viewing period,security,4
+629,holder current security clearance enter national headquarters building,security,4
+355,system shall granularly control access right major subsystem possible assign access right subsystem independently,security,4
+426,customer stream movie purchased within 2 day viewing period,security,4
+627,payroll system shall ensure employee salary data accessed authorized user payroll system shall distinguish authorized non authorized user,security,4
+92,program administrator nursing staff member people shall access clinical site detail,security,4
+628,employee shall allowed update salary information attempt shall reported security administrator,security,4
+231,adjuster supervisor role update preferred repair facility rating user without supervisor role cannot access repair facility rating,security,4
+233,valid data shall entered system invalid data shall entered system,security,4
+170,dispute application shall manipulate view business data user direct access data file database,security,4
+577,product shall audit capability product shall store message minimum one year audit transaction tracking purpose,security,4
+97,system shall basic data integrity checking reduce possibility incorrect invalid data introduced,security,4
+400,credit card information secured server accessible authorized izogn administrator information encrypted database,security,4
+236,system shall prevent malicious attack including denial service,security,4
+54,registered realtor shall able access system,security,4
+231,adjuster supervisor role update preferred repair facility rating user without supervisor role cannot access repair facility rating,security,4
+354,system shall maintain consistent security change user password permission take affect part system,security,4
+93,authorized user shall access student personal information,security,4
+91,authorized user shall access clinical site information,security,4
+167,addition new user modification user access shall recorded user report,security,4
+235,product shall free computer virus,security,4
+50,product shall capable handling existing 1000 user number expected grow 5 time within next year,security,4
+93,authorized user shall access student personal information,security,4
+435,system shall reveal private information compliance organization information policy,security,4
+632,unsuccessful attempt user access item data shall recorded audit trail,security,4
+620,user access limited permission granted role level pcg hierarchy assigned role user assigned role access functionality within rf system dependent privilege permission assigned role,security,4
+233,valid data shall entered system invalid data shall entered system,security,4
+626,user must change initially assigned login authentication information password immediately first successful login initial password may never reused,security,4
+630,access permission system data may changed system data administrator,security,4
+233,valid data shall entered system invalid data shall entered system,security,4
+93,authorized user shall access student personal information,security,4
+49,product shall able support 1000 simultaneous user,security,4
+597,team owner need use username password order authenticated reach team owner page,security,4
+97,system shall basic data integrity checking reduce possibility incorrect invalid data introduced,security,4
+631,password shall never viewable point entry time,security,4
+435,system shall reveal private information compliance organization information policy,security,4
+55,every user system shall authenticated authorized,security,4
+431,website shall protect intentional abuse notify administrator occurrence,security,4
+577,product shall audit capability product shall store message minimum one year audit transaction tracking purpose,security,4
+425,registered customer purchase streaming movie,security,4
+314,product shall ensure company employee external user company approved user id may product access 100 logons shall either company employee external user company approved user id,security,4
+355,system shall granularly control access right major subsystem possible assign access right subsystem independently,security,4
+429,authorized personnel access sale information,security,4
+235,product shall free computer virus,security,4
+552,product shall ensure supervisor enter caller schedule product must ensure supervisor allowed access advertise empty time slot,security,4
+68,system shall easy use program administrator nursing staff member,usability,2
+74,system shall use symbol word naturally understandable user community,usability,2
+604,user shall able view least 25 nfl player statistic point page,usability,2
+285,product shall give user feedback necessary 80 user surveyed report product accurately confirms action,usability,2
+286,product shall allow user select chosen language one target market country,usability,2
+52,90 untrained realtor shall able install product device without printed instruction,usability,2
+648,new warehouse clerk shall able enter customer order system within typical 8 hour business day,usability,2
+2,projected data must readable 10x10 projection screen 90 viewer must able read event activity data viewing distance 30,usability,2
+388,user navigate maximum 4 page create account website,usability,2
+309,every registered user access product support site via internet 70 registered user shall find solution problem within 5 minute using support site,usability,2
+75,verbiage used within system shall consistent standard english terminology national nursing community,usability,2
+70,system shall help user avoid making mistake scheduling class clinicals nursing student,usability,2
+559,product shall provide error tracking service product shall help system administrator dba resolve transaction error 99 time,usability,2
+602,new user shall able navigate league team page within 30 second reaching start page,usability,2
+290,product shall allow intuitive searching available conference room,usability,2
+647,people training understanding english shall able use product,usability,2
+501,product shall intuitive self explanatory nine ten user shall able successfully complete game training,usability,2
+543,system shall easy use caller supervisor caller supervisor must able accomplish system task within 2 minute,usability,2
+559,product shall provide error tracking service product shall help system administrator dba resolve transaction error 99 time,usability,2
+644,product shall self explanatory intuitive service agent shall able produce price quote within 10 minute encountering product first time,usability,2
+72,system shall intuitive program administrator nursing staff member,usability,2
+215,user shall easily locate instruction using product user help found within 90 system,usability,2
+72,system shall intuitive program administrator nursing staff member,usability,2
+287,product shall allow customization start page view preference,usability,2
+287,product shall allow customization start page view preference,usability,2
+71,number mistake noted student shall decreased 50 first year,usability,2
+605,application shall ask user confirm dropping player trading player performing action,usability,2
+288,employee able successfully use product within minute informally navigating product le 15 minute user shall able successfully setup meeting reserve conference room,usability,2
+583,interface shall easy use 90 user able successfully use system generate report first use interface adhere ibm usability standard,usability,2
+309,every registered user access product support site via internet 70 registered user shall find solution problem within 5 minute using support site,usability,2
+284,product shall easy use 90 user able successfully reserve conference room within 5 minute product use,usability,2
+151,100 cardmember merchant service representative shall use dispute application regularly 2 day training course,usability,2
+212,product shall increase productivity collision estimator 80 collision estimator shall agree productivity increase within 1 month using product,usability,2
+213,user shall feel satisfied using product 85 user satisfied product,usability,2
+70,system shall help user avoid making mistake scheduling class clinicals nursing student,usability,2
+285,product shall give user feedback necessary 80 user surveyed report product accurately confirms action,usability,2
+649,system shall useable program developer five week training,usability,2
+68,system shall easy use program administrator nursing staff member,usability,2
+74,system shall use symbol word naturally understandable user community,usability,2
+151,100 cardmember merchant service representative shall use dispute application regularly 2 day training course,usability,2
+646,trained order entry clerk shall ability submit complete order product chosen supplier catalog maximum 7 minute average order entry time 4 minute,usability,2
+70,system shall help user avoid making mistake scheduling class clinicals nursing student,usability,2
+150,list dispute case displayed search performed must color coded easy identification dispute case based upon dispute case status,usability,2
+394,product shall use symbol word naturally understandable user familiar website,usability,2
+51,product shall installed untrained realtor without recourse separately printed instruction,usability,2
+285,product shall give user feedback necessary 80 user surveyed report product accurately confirms action,usability,2
+290,product shall allow intuitive searching available conference room,usability,2
+392,product shall retain customer buying preference information,usability,2
+34,product shall easy realtor learn,usability,2
+33,system shall intuitive self explanatory,usability,2
+646,trained order entry clerk shall ability submit complete order product chosen supplier catalog maximum 7 minute average order entry time 4 minute,usability,2
+502,product shall available player understand english spanish french product shall allow user select language upon accessing product,usability,2
+559,product shall provide error tracking service product shall help system administrator dba resolve transaction error 99 time,usability,2
+291,product shall conform american disability act,usability,2
+74,system shall use symbol word naturally understandable user community,usability,2
+74,system shall use symbol word naturally understandable user community,usability,2
+35,product shall use symbol word naturally understandable realtor community,usability,2
+212,product shall increase productivity collision estimator 80 collision estimator shall agree productivity increase within 1 month using product,usability,2
+70,system shall help user avoid making mistake scheduling class clinicals nursing student,usability,2
+71,number mistake noted student shall decreased 50 first year,usability,2
+602,new user shall able navigate league team page within 30 second reaching start page,usability,2
+583,interface shall easy use 90 user able successfully use system generate report first use interface adhere ibm usability standard,usability,2
+390,anonymous survey show 70 customer comfortable purchasing streaming movie 2 week using website,usability,2
+583,interface shall easy use 90 user able successfully use system generate report first use interface adhere ibm usability standard,usability,2
+502,product shall available player understand english spanish french product shall allow user select language upon accessing product,usability,2
+393,product shall easy customer novice skill internet purchase watch streaming movie customer able purchase watch pre determined movie 3 minute,usability,2
+388,user navigate maximum 4 page create account website,usability,2
+648,new warehouse clerk shall able enter customer order system within typical 8 hour business day,usability,2
+311,product shall translated foreign language target market country language future release emerging target market shall take 5 day configure product market language,usability,2
+2,projected data must readable 10x10 projection screen 90 viewer must able read event activity data viewing distance 30,usability,2
+151,100 cardmember merchant service representative shall use dispute application regularly 2 day training course,usability,2
+213,user shall feel satisfied using product 85 user satisfied product,usability,2
+32,system shall used realtor training,usability,2
+286,product shall allow user select chosen language one target market country,usability,2
+75,verbiage used within system shall consistent standard english terminology national nursing community,usability,2
+73,2 3 program administrator nursing staff member shall successfully able use system manage scheduling class clinicals,usability,2
+543,system shall easy use caller supervisor caller supervisor must able accomplish system task within 2 minute,usability,2
+150,list dispute case displayed search performed must color coded easy identification dispute case based upon dispute case status,usability,2
+502,product shall available player understand english spanish french product shall allow user select language upon accessing product,usability,2
+558,product shall provide monitoring service product shall easy system administrator dba use two week usage,usability,2
+215,user shall easily locate instruction using product user help found within 90 system,usability,2
+422,website provide help section answer solution common problem,usability,2
+150,list dispute case displayed search performed must color coded easy identification dispute case based upon dispute case status,usability,2
+289,product shall use standard navigation menu familiar web user,usability,2
+389,user able access streaming movie 2 click logging website,usability,2
+71,number mistake noted student shall decreased 50 first year,usability,2
+287,product shall allow customization start page view preference,usability,2
+150,list dispute case displayed search performed must color coded easy identification dispute case based upon dispute case status,usability,2
+75,verbiage used within system shall consistent standard english terminology national nursing community,usability,2
+2,projected data must readable 10x10 projection screen 90 viewer must able read event activity data viewing distance 30,usability,2
+288,employee able successfully use product within minute informally navigating product le 15 minute user shall able successfully setup meeting reserve conference room,usability,2
+648,new warehouse clerk shall able enter customer order system within typical 8 hour business day,usability,2
+604,user shall able view least 25 nfl player statistic point page,usability,2
+321,product shall able display calendar date time according user locale 90 survey respondent target market country find date time formatting product correct,usability,2
+212,product shall increase productivity collision estimator 80 collision estimator shall agree productivity increase within 1 month using product,usability,2
+623,user able easily use system successfully complete budget within stipulated time completion week training prior product implementation 98 user shall complete budget within stipulated time,usability,2
+642,new product shall easy use adult member age 18 80 public may one hand free,usability,2
+602,new user shall able navigate league team page within 30 second reaching start page,usability,2
+284,product shall easy use 90 user able successfully reserve conference room within 5 minute product use,usability,2
+602,new user shall able navigate league team page within 30 second reaching start page,usability,2
+422,website provide help section answer solution common problem,usability,2
+311,product shall translated foreign language target market country language future release emerging target market shall take 5 day configure product market language,usability,2
+70,system shall help user avoid making mistake scheduling class clinicals nursing student,usability,2
+211,product shall easy use adjuster collision estimator 95 adjuster collision estimator shall find product easy use,usability,2
+290,product shall allow intuitive searching available conference room,usability,2
+391,anonymous survey show 95 customer comfortable using purchasing pre paid card month using system,usability,2
+648,new warehouse clerk shall able enter customer order system within typical 8 hour business day,usability,2
+388,user navigate maximum 4 page create account website,usability,2
+391,anonymous survey show 95 customer comfortable using purchasing pre paid card month using system,usability,2
+646,trained order entry clerk shall ability submit complete order product chosen supplier catalog maximum 7 minute average order entry time 4 minute,usability,2
+52,90 untrained realtor shall able install product device without printed instruction,usability,2
+647,people training understanding english shall able use product,usability,2
+285,product shall give user feedback necessary 80 user surveyed report product accurately confirms action,usability,2
+287,product shall allow customization start page view preference,usability,2
+215,user shall easily locate instruction using product user help found within 90 system,usability,2
+602,new user shall able navigate league team page within 30 second reaching start page,usability,2
+72,system shall intuitive program administrator nursing staff member,usability,2
+389,user able access streaming movie 2 click logging website,usability,2
+290,product shall allow intuitive searching available conference room,usability,2
+33,system shall intuitive self explanatory,usability,2
+285,product shall give user feedback necessary 80 user surveyed report product accurately confirms action,usability,2
+387,product able used 90 novice user internet,usability,2
+68,system shall easy use program administrator nursing staff member,usability,2
+51,product shall installed untrained realtor without recourse separately printed instruction,usability,2
+212,product shall increase productivity collision estimator 80 collision estimator shall agree productivity increase within 1 month using product,usability,2
+289,product shall use standard navigation menu familiar web user,usability,2
+32,system shall used realtor training,usability,2
+68,system shall easy use program administrator nursing staff member,usability,2
+544,system shall easy learn caller supervisor caller supervisor shall learn use system within 10 minute,usability,2
+643,vending product shall able used adult member public without training panel representative least 95 percent general public shall successfully purchase product vending product first encounter,usability,2
+287,product shall allow customization start page view preference,usability,2
+645,new policy management system shall evaluated 90 percent user community least easy use existing system,usability,2
+649,system shall useable program developer five week training,usability,2
+287,product shall allow customization start page view preference,usability,2
+68,system shall easy use program administrator nursing staff member,usability,2
+6,product shall intuitive self explanatory 90 new user shall able start display event activity within 90 minute using product,usability,2
+605,application shall ask user confirm dropping player trading player performing action,usability,2
+72,system shall intuitive program administrator nursing staff member,usability,2
+544,system shall easy learn caller supervisor caller supervisor shall learn use system within 10 minute,usability,2
+34,product shall easy realtor learn,usability,2
+422,website provide help section answer solution common problem,usability,2
+602,new user shall able navigate league team page within 30 second reaching start page,usability,2
+390,anonymous survey show 70 customer comfortable purchasing streaming movie 2 week using website,usability,2
+291,product shall conform american disability act,usability,2
+388,user navigate maximum 4 page create account website,usability,2
+394,product shall use symbol word naturally understandable user familiar website,usability,2
+289,product shall use standard navigation menu familiar web user,usability,2
+584,rreports must easy generate eports must generated within one button click exported within one button click selecting report,usability,2
+644,product shall self explanatory intuitive service agent shall able produce price quote within 10 minute encountering product first time,usability,2
+393,product shall easy customer novice skill internet purchase watch streaming movie customer able purchase watch pre determined movie 3 minute,usability,2
+158,dispute application shall interface cardmember information database cardmember information database provides detailed information regard cardmember cardmember detail information must obtained cardmember information database,operational,9
+616,rf system able easily interface bdw environment order load data 7 data file shall received bdw loaded rf system within 3 hour one day prior start budgeting process every year data october month end test file 7 shall loaded 5 time throughout year bdw,operational,9
+313,product shall able installed operating environment within 2 day,operational,9
+205,product shall interface choice part system provides feed recycled part data,operational,9
+84,system shall able operate within business office environment typical nursing department depaul university,operational,9
+442,website use flash provide animation home page,operational,9
+614,98 user workstation shall meet minimum hardware requirement prior implementation minimum hard disk space 400mb,operational,9
+298,product shall used office environment,operational,9
+278,product require collaboration database management system dbms dbms may located machine product separate machine residing computer network,operational,9
+299,product must able interface html browser product shall transmit data user product without problem product shall display html properly 80 html browser tested minimum test 8 browser,operational,9
+424,product shall able installed specified environment within 1 working day,operational,9
+299,product must able interface html browser product shall transmit data user product without problem product shall display html properly 80 html browser tested minimum test 8 browser,operational,9
+442,website use flash provide animation home page,operational,9
+610,secondary database used store historical statistic data,operational,9
+157,dispute application shall interface statement database statement database provides transaction detail dispute system transaction detail must obtained statement database,operational,9
+158,dispute application shall interface cardmember information database cardmember information database provides detailed information regard cardmember cardmember detail information must obtained cardmember information database,operational,9
+84,system shall able operate within business office environment typical nursing department depaul university,operational,9
+412,hardware supporting current website used support new system,operational,9
+357,system shall require additional third party license resulting royalty fee,operational,9
+591,wcs system shall run window environment wcs shall accessed user internet ibm computer running window 2000 operating system,operational,9
+313,product shall able installed operating environment within 2 day,operational,9
+471,washing process must use non binding neutral data format xml receiving processing lead data,operational,9
+206,product shall run existing hardware environment,operational,9
+313,product shall able installed operating environment within 2 day,operational,9
+417,movie shall encoded 56k 256k stream,operational,9
+160,dispute application shall interface letter application allow dispute application request letter part dispute initiation dispute follow process letter request must sent print letter utility application,operational,9
+591,wcs system shall run window environment wcs shall accessed user internet ibm computer running window 2000 operating system,operational,9
+277,product function alongside server software operating system java runtime installed,operational,9
+413,must able interface following browser ie 5 x 6 0 netscape 6 x 7 x 8 x firefox 1 0,operational,9
+610,secondary database used store historical statistic data,operational,9
+303,product shall available distribution packaged cd,operational,9
+157,dispute application shall interface statement database statement database provides transaction detail dispute system transaction detail must obtained statement database,operational,9
+313,product shall able installed operating environment within 2 day,operational,9
+204,product must support mozilla firefox 1 0,operational,9
+442,website use flash provide animation home page,operational,9
+471,washing process must use non binding neutral data format xml receiving processing lead data,operational,9
+591,wcs system shall run window environment wcs shall accessed user internet ibm computer running window 2000 operating system,operational,9
+203,product must support internet explorer 5 5,operational,9
+89,system shall interface student master server,operational,9
+203,product must support internet explorer 5 5,operational,9
+471,washing process must use non binding neutral data format xml receiving processing lead data,operational,9
+278,product require collaboration database management system dbms dbms may located machine product separate machine residing computer network,operational,9
+203,product must support internet explorer 5 5,operational,9
+298,product shall used office environment,operational,9
+229,product installation upgrade shall handled middleware technology team within established launch time frame,operational,9
+300,product must able interface various database management system product shall communicate successfully database management system 100 transaction,operational,9
+300,product must able interface various database management system product shall communicate successfully database management system 100 transaction,operational,9
+278,product require collaboration database management system dbms dbms may located machine product separate machine residing computer network,operational,9
+161,dispute application shall interface cardmember posting billing system allow dispute application request adjustment cardmember merchant account adjustment request must sent cardmember posting billing system,operational,9
+85,system shall used within specification defined computer used program administrator nursing staff member,operational,9
+301,product must able interface various email server product shall able send email,operational,9
+609,primary database used store cached data active user,operational,9
+313,product shall able installed operating environment within 2 day,operational,9
+280,database management system oracle db2 mysql hsql need integrated product,operational,9
+225,estimator product shall able operated repair facility dirty noisy condition,operational,9
+299,product must able interface html browser product shall transmit data user product without problem product shall display html properly 80 html browser tested minimum test 8 browser,operational,9
+203,product must support internet explorer 5 5,operational,9
+229,product installation upgrade shall handled middleware technology team within established launch time frame,operational,9
+276,product must work database management system dbms market whether dbms colocated product machine located different machine computer network,operational,9
+300,product must able interface various database management system product shall communicate successfully database management system 100 transaction,operational,9
+608,application shall run web application server,operational,9
+160,dispute application shall interface letter application allow dispute application request letter part dispute initiation dispute follow process letter request must sent print letter utility application,operational,9
+298,product shall used office environment,operational,9
+159,dispute application shall interface merchant information database merchant information database provides detailed information regard merchant merchant detail information shall obtained merchant information database,operational,9
+277,product function alongside server software operating system java runtime installed,operational,9
+158,dispute application shall interface cardmember information database cardmember information database provides detailed information regard cardmember cardmember detail information must obtained cardmember information database,operational,9
+205,product shall interface choice part system provides feed recycled part data,operational,9
+225,estimator product shall able operated repair facility dirty noisy condition,operational,9
+206,product shall run existing hardware environment,operational,9
+591,wcs system shall run window environment wcs shall accessed user internet ibm computer running window 2000 operating system,operational,9
+156,dispute application shall available 24x7x365 exception following scheduled maintenance window monday saturday 3 00am 4 00am est sunday 1 00amd 5 00am est,operational,9
+277,product function alongside server software operating system java runtime installed,operational,9
+160,dispute application shall interface letter application allow dispute application request letter part dispute initiation dispute follow process letter request must sent print letter utility application,operational,9
+207,product shall adhere corporate architecture guideline,operational,9
+416,movie shall encoded streamed via window medium player 9 0,operational,9
+156,dispute application shall available 24x7x365 exception following scheduled maintenance window monday saturday 3 00am 4 00am est sunday 1 00amd 5 00am est,operational,9
+160,dispute application shall interface letter application allow dispute application request letter part dispute initiation dispute follow process letter request must sent print letter utility application,operational,9
+298,product shall used office environment,operational,9
+303,product shall available distribution packaged cd,operational,9
+227,maintenance product fall within established corporate maintenance window,operational,9
+610,secondary database used store historical statistic data,operational,9
+302,product shall available distribution via internet binary zip file,operational,9
+277,product function alongside server software operating system java runtime installed,operational,9
+414,website must interface cybersource api process credit card transaction,operational,9
+89,system shall interface student master server,operational,9
+88,system shall interface faculty central server,operational,9
+156,dispute application shall available 24x7x365 exception following scheduled maintenance window monday saturday 3 00am 4 00am est sunday 1 00amd 5 00am est,operational,9
+277,product function alongside server software operating system java runtime installed,operational,9
+277,product function alongside server software operating system java runtime installed,operational,9
+470,lead washing process operate within established physical web service structure,operational,9
+414,website must interface cybersource api process credit card transaction,operational,9
+591,wcs system shall run window environment wcs shall accessed user internet ibm computer running window 2000 operating system,operational,9
+304,product available licensing one server two five server five server license,operational,9
+357,system shall require additional third party license resulting royalty fee,operational,9
+205,product shall interface choice part system provides feed recycled part data,operational,9
+203,product must support internet explorer 5 5,operational,9
+277,product function alongside server software operating system java runtime installed,operational,9
+205,product shall interface choice part system provides feed recycled part data,operational,9
+616,rf system able easily interface bdw environment order load data 7 data file shall received bdw loaded rf system within 3 hour one day prior start budgeting process every year data october month end test file 7 shall loaded 5 time throughout year bdw,operational,9
+90,must able interface html browser,operational,9
+591,wcs system shall run window environment wcs shall accessed user internet ibm computer running window 2000 operating system,operational,9
+228,product shall supported using corporate support center,operational,9
+412,hardware supporting current website used support new system,operational,9
+229,product installation upgrade shall handled middleware technology team within established launch time frame,operational,9
+160,dispute application shall interface letter application allow dispute application request letter part dispute initiation dispute follow process letter request must sent print letter utility application,operational,9
+424,product shall able installed specified environment within 1 working day,operational,9
+161,dispute application shall interface cardmember posting billing system allow dispute application request adjustment cardmember merchant account adjustment request must sent cardmember posting billing system,operational,9
+298,product shall used office environment,operational,9
+302,product shall available distribution via internet binary zip file,operational,9
+591,wcs system shall run window environment wcs shall accessed user internet ibm computer running window 2000 operating system,operational,9
+609,primary database used store cached data active user,operational,9
+442,website use flash provide animation home page,operational,9
+205,product shall interface choice part system provides feed recycled part data,operational,9
+414,website must interface cybersource api process credit card transaction,operational,9
+357,system shall require additional third party license resulting royalty fee,operational,9
+412,hardware supporting current website used support new system,operational,9
+415,website must fully operational msn tv2,operational,9
+609,primary database used store cached data active user,operational,9
+413,must able interface following browser ie 5 x 6 0 netscape 6 x 7 x 8 x firefox 1 0,operational,9
+303,product shall available distribution packaged cd,operational,9
+470,lead washing process operate within established physical web service structure,operational,9
+415,website must fully operational msn tv2,operational,9
+357,system shall require additional third party license resulting royalty fee,operational,9
+278,product require collaboration database management system dbms dbms may located machine product separate machine residing computer network,operational,9
+77,response time general student management task shall take longer 5 second response time schedule generation shall take longer 30 second,performance,0
+466,total lead cycle time must completed 5 minute 90 lead volume business hour 8am cst 8pm cst 3 minute 99 lead volume business hour,performance,0
+219,preferred repair facility rating shall saved within 5 second save shall occur within 5 second,performance,0
+0,system shall refresh display every 60 second,performance,0
+563,product shall process message within 2 second product shall maximum message processing time 2 second,performance,0
+382,system shall let izogn manager access sale usage statistic 2 minute,performance,0
+379,system shall let administrator de activate customer account 1 minute customer longer able access website,performance,0
+383,system shall let administrator generate unique pre paid pin 2 minute generate excel file generated pin,performance,0
+562,product shall provide multi threading load balancing product shall provide multi threading technology well load balancing overcome data load spike traffic,performance,0
+383,system shall let administrator generate unique pre paid pin 2 minute generate excel file generated pin,performance,0
+563,product shall process message within 2 second product shall maximum message processing time 2 second,performance,0
+76,staff member shall able complete set task timely manner,performance,0
+77,response time general student management task shall take longer 5 second response time schedule generation shall take longer 30 second,performance,0
+0,system shall refresh display every 60 second,performance,0
+500,product shall protect identity player product shall provide player access information might reveal identity another player,performance,0
+498,product shall able handle large number game simultaneously,performance,0
+466,total lead cycle time must completed 5 minute 90 lead volume business hour 8am cst 8pm cst 3 minute 99 lead volume business hour,performance,0
+565,product shall provide dynamic change support transparent resource addition product shall support transparent resource addition dynamic change support provide scalability avoid service interruption 1 day,performance,0
+292,response shall fast enough avoid interrupting user flow thought 90 task shall complete within 5 second 98 task shall complete within 8 second,performance,0
+466,total lead cycle time must completed 5 minute 90 lead volume business hour 8am cst 8pm cst 3 minute 99 lead volume business hour,performance,0
+561,product shall provide asynchronous messaging product shall provide asynchronous messaging enable parallel processing reduce overhead communication,performance,0
+155,dispute application shall support 350 concurrent user without degradation performance application,performance,0
+378,system shall let customer cancel account process shall take longer 2 minute database mark account inactive user able log website,performance,0
+504,response time shall fast enough maintain flow game response time shall 2 second 95 response 4 remaining response,performance,0
+399,streaming movie buffering occur latency user connection,performance,0
+76,staff member shall able complete set task timely manner,performance,0
+466,total lead cycle time must completed 5 minute 90 lead volume business hour 8am cst 8pm cst 3 minute 99 lead volume business hour,performance,0
+218,recycled part audit report shall returned user within 10 second audit report shall returned within 10 second,performance,0
+563,product shall process message within 2 second product shall maximum message processing time 2 second,performance,0
+565,product shall provide dynamic change support transparent resource addition product shall support transparent resource addition dynamic change support provide scalability avoid service interruption 1 day,performance,0
+217,search preferred repair facility shall take longer 8 second preferred repair facility returned within 8 second,performance,0
+39,cma report shall returned later 60 second user entered cma report criterion,performance,0
+217,search preferred repair facility shall take longer 8 second preferred repair facility returned within 8 second,performance,0
+565,product shall provide dynamic change support transparent resource addition product shall support transparent resource addition dynamic change support provide scalability avoid service interruption 1 day,performance,0
+379,system shall let administrator de activate customer account 1 minute customer longer able access website,performance,0
+217,search preferred repair facility shall take longer 8 second preferred repair facility returned within 8 second,performance,0
+382,system shall let izogn manager access sale usage statistic 2 minute,performance,0
+376,system shall let customer register website unlimited movie subscriber user 10 minute,performance,0
+396,interface user automated system shall maximum response time 5 second unless noted exception,performance,0
+396,interface user automated system shall maximum response time 5 second unless noted exception,performance,0
+379,system shall let administrator de activate customer account 1 minute customer longer able access website,performance,0
+216,search recycled part shall take longer 15 second search result shall returned 15 second,performance,0
+7,product shall respond fast keep date data display,performance,0
+397,purchasing streaming movie pre paid card via credit card processing time maximum response time 15 second,performance,0
+466,total lead cycle time must completed 5 minute 90 lead volume business hour 8am cst 8pm cst 3 minute 99 lead volume business hour,performance,0
+381,system shall let administrator add remove category website 5 minute,performance,0
+351,system shall allow minimum 6 user work time,performance,0
+383,system shall let administrator generate unique pre paid pin 2 minute generate excel file generated pin,performance,0
+217,search preferred repair facility shall take longer 8 second preferred repair facility returned within 8 second,performance,0
+376,system shall let customer register website unlimited movie subscriber user 10 minute,performance,0
+377,system shall let existing customer log website email address password 5 second,performance,0
+396,interface user automated system shall maximum response time 5 second unless noted exception,performance,0
+155,dispute application shall support 350 concurrent user without degradation performance application,performance,0
+382,system shall let izogn manager access sale usage statistic 2 minute,performance,0
+154,maximum wait time user navigating one screen another within dispute application shall 5 second,performance,0
+378,system shall let customer cancel account process shall take longer 2 minute database mark account inactive user able log website,performance,0
+77,response time general student management task shall take longer 5 second response time schedule generation shall take longer 30 second,performance,0
+219,preferred repair facility rating shall saved within 5 second save shall occur within 5 second,performance,0
+351,system shall allow minimum 6 user work time,performance,0
+292,response shall fast enough avoid interrupting user flow thought 90 task shall complete within 5 second 98 task shall complete within 8 second,performance,0
+41,product shall synchronize office system every hour,performance,0
+378,system shall let customer cancel account process shall take longer 2 minute database mark account inactive user able log website,performance,0
+155,dispute application shall support 350 concurrent user without degradation performance application,performance,0
+350,recreation inventory quantity adjustment period previous 30 day shall take 30min,performance,0
+547,112k connection faster system response time operation must 3 second 90 time,performance,0
+41,product shall synchronize office system every hour,performance,0
+155,dispute application shall support 350 concurrent user without degradation performance application,performance,0
+382,system shall let izogn manager access sale usage statistic 2 minute,performance,0
+399,streaming movie buffering occur latency user connection,performance,0
+374,customer shall able check status prepaid card entering pin number 5 second,performance,0
+398,streaming movie buffering time take longer 10 second plus latency user connection,performance,0
+378,system shall let customer cancel account process shall take longer 2 minute database mark account inactive user able log website,performance,0
+545,system shall responsive depaul teleservices center supervisor u system view caller schedule system response time must 2 second 90 time 5 second rest time,performance,0
+39,cma report shall returned later 60 second user entered cma report criterion,performance,0
+38,product shall generate cma report acceptable time,performance,0
+41,product shall synchronize office system every hour,performance,0
+378,system shall let customer cancel account process shall take longer 2 minute database mark account inactive user able log website,performance,0
+378,system shall let customer cancel account process shall take longer 2 minute database mark account inactive user able log website,performance,0
+564,product shall poll system message every second product shall poll system new message maximum every 1 second,performance,0
+545,system shall responsive depaul teleservices center supervisor u system view caller schedule system response time must 2 second 90 time 5 second rest time,performance,0
+419,izogn administrator must able update category listing website within 2 minute,performance,0
+498,product shall able handle large number game simultaneously,performance,0
+219,preferred repair facility rating shall saved within 5 second save shall occur within 5 second,performance,0
+217,search preferred repair facility shall take longer 8 second preferred repair facility returned within 8 second,performance,0
+378,system shall let customer cancel account process shall take longer 2 minute database mark account inactive user able log website,performance,0
+219,preferred repair facility rating shall saved within 5 second save shall occur within 5 second,performance,0
+40,product shall synchronize contact appointment acceptable time,performance,0
+375,system shall let customer register website pay go user 5 minute,performance,0
+500,product shall protect identity player product shall provide player access information might reveal identity another player,performance,0
+376,system shall let customer register website unlimited movie subscriber user 10 minute,performance,0
+155,dispute application shall support 350 concurrent user without degradation performance application,performance,0
+562,product shall provide multi threading load balancing product shall provide multi threading technology well load balancing overcome data load spike traffic,performance,0
+216,search recycled part shall take longer 15 second search result shall returned 15 second,performance,0
+382,system shall let izogn manager access sale usage statistic 2 minute,performance,0
+398,streaming movie buffering time take longer 10 second plus latency user connection,performance,0
+563,product shall process message within 2 second product shall maximum message processing time 2 second,performance,0
+219,preferred repair facility rating shall saved within 5 second save shall occur within 5 second,performance,0
+545,system shall responsive depaul teleservices center supervisor u system view caller schedule system response time must 2 second 90 time 5 second rest time,performance,0
+498,product shall able handle large number game simultaneously,performance,0
+500,product shall protect identity player product shall provide player access information might reveal identity another player,performance,0
+546,56k connection system response time operation must 6 second 90 time,performance,0
+504,response time shall fast enough maintain flow game response time shall 2 second 95 response 4 remaining response,performance,0
+399,streaming movie buffering occur latency user connection,performance,0
+564,product shall poll system message every second product shall poll system new message maximum every 1 second,performance,0
+546,56k connection system response time operation must 6 second 90 time,performance,0
+498,product shall able handle large number game simultaneously,performance,0
+379,system shall let administrator de activate customer account 1 minute customer longer able access website,performance,0
+77,response time general student management task shall take longer 5 second response time schedule generation shall take longer 30 second,performance,0
+210,appearance product shall appear professional,look and feel,1
+621,product must comply intranet page standard requirement enet security 95 product look feel approved architecture group prior implementation remaining 5 corrected approved within one month product release,look and feel,1
+439,website cater tribe nigeria,look and feel,1
+1,application shall match color schema set forth department homeland security,look and feel,1
+557,product shall comply city chicago application development guide framework application development framework provide structured graphical user interface,look and feel,1
+554,interface shall simple look interface usability survey 90 beta tester must report interface adequately simple,look and feel,1
+578,system shall use ibm ccr branding standard interface must one ibm logo one ccr logo,look and feel,1
+578,system shall use ibm ccr branding standard interface must one ibm logo one ccr logo,look and feel,1
+209,product shall comply corporate color scheme,look and feel,1
+210,appearance product shall appear professional,look and feel,1
+1,application shall match color schema set forth department homeland security,look and feel,1
+621,product must comply intranet page standard requirement enet security 95 product look feel approved architecture group prior implementation remaining 5 corrected approved within one month product release,look and feel,1
+440,website shall offensive religious ethnic group,look and feel,1
+621,product must comply intranet page standard requirement enet security 95 product look feel approved architecture group prior implementation remaining 5 corrected approved within one month product release,look and feel,1
+282,product shall conservative professional appearance,look and feel,1
+496,ship sunk product shall simulate sound sinking ship,look and feel,1
+599,page shall contain navigation menu show index current page contained,look and feel,1
+209,product shall comply corporate color scheme,look and feel,1
+621,product must comply intranet page standard requirement enet security 95 product look feel approved architecture group prior implementation remaining 5 corrected approved within one month product release,look and feel,1
+386,website design modern clean concise,look and feel,1
+385,website african feel alienate non african website use animation page describing service grab user attention encourage sign,look and feel,1
+148,dispute application shall comply corporate standard user interface creation internally externally used application,look and feel,1
+385,website african feel alienate non african website use animation page describing service grab user attention encourage sign,look and feel,1
+554,interface shall simple look interface usability survey 90 beta tester must report interface adequately simple,look and feel,1
+385,website african feel alienate non african website use animation page describing service grab user attention encourage sign,look and feel,1
+557,product shall comply city chicago application development guide framework application development framework provide structured graphical user interface,look and feel,1
+494,shot marked miss product shall simulate sound shot missing target,look and feel,1
+579,system shall displayable work computer ccr user may system interface shall formatted display 800 600 pixel resolution,look and feel,1
+579,system shall displayable work computer ccr user may system interface shall formatted display 800 600 pixel resolution,look and feel,1
+554,interface shall simple look interface usability survey 90 beta tester must report interface adequately simple,look and feel,1
+384,website shall attractive audience website shall appear fun color bright vibrant,look and feel,1
+28,look feel system shall conform user interface standard smart device,look and feel,1
+580,system interface use ccr nomenclature system must use nomenclature used existing wcs system report,look and feel,1
+621,product must comply intranet page standard requirement enet security 95 product look feel approved architecture group prior implementation remaining 5 corrected approved within one month product release,look and feel,1
+556,product shall provide gui based monitoring service system administrator shall monitor message exchange predict determine problem also provide internal external support,look and feel,1
+490,product shall simulate look ship sea,look and feel,1
+578,system shall use ibm ccr branding standard interface must one ibm logo one ccr logo,look and feel,1
+385,website african feel alienate non african website use animation page describing service grab user attention encourage sign,look and feel,1
+494,shot marked miss product shall simulate sound shot missing target,look and feel,1
+495,shot marked hit product shall simulate sound shot hitting target,look and feel,1
+579,system shall displayable work computer ccr user may system interface shall formatted display 800 600 pixel resolution,look and feel,1
+282,product shall conservative professional appearance,look and feel,1
+557,product shall comply city chicago application development guide framework application development framework provide structured graphical user interface,look and feel,1
+281,product look feel shall able incorporate aspect customer organization logo branding identity,look and feel,1
+496,ship sunk product shall simulate sound sinking ship,look and feel,1
+210,appearance product shall appear professional,look and feel,1
+439,website cater tribe nigeria,look and feel,1
+490,product shall simulate look ship sea,look and feel,1
+440,website shall offensive religious ethnic group,look and feel,1
+208,product shall comply corporate user interface guideline,look and feel,1
+496,ship sunk product shall simulate sound sinking ship,look and feel,1
+282,product shall conservative professional appearance,look and feel,1
+441,website appeal african nigerian,look and feel,1
+208,product shall comply corporate user interface guideline,look and feel,1
+282,product shall conservative professional appearance,look and feel,1
+557,product shall comply city chicago application development guide framework application development framework provide structured graphical user interface,look and feel,1
+599,page shall contain navigation menu show index current page contained,look and feel,1
+492,product shall display type ship grid using image specific type ship,look and feel,1
+581,interface must summarize data fashion appealing ccr management every report type must least one high level summary shown result dashboard interface,look and feel,1
+496,ship sunk product shall simulate sound sinking ship,look and feel,1
+148,dispute application shall comply corporate standard user interface creation internally externally used application,look and feel,1
+31,product shall consistent color scheme font,look and feel,1
+208,product shall comply corporate user interface guideline,look and feel,1
+496,ship sunk product shall simulate sound sinking ship,look and feel,1
+496,ship sunk product shall simulate sound sinking ship,look and feel,1
+600,page shall contain similar format action item one location navigation button different location,look and feel,1
+439,website cater tribe nigeria,look and feel,1
+385,website african feel alienate non african website use animation page describing service grab user attention encourage sign,look and feel,1
+496,ship sunk product shall simulate sound sinking ship,look and feel,1
+439,website cater tribe nigeria,look and feel,1
+149,screen created part dispute application must comply corporate standard interface creation,look and feel,1
+493,offensive player take shot product shall simulate sound ship sea,look and feel,1
+494,shot marked miss product shall simulate sound shot missing target,look and feel,1
+282,product shall conservative professional appearance,look and feel,1
+384,website shall attractive audience website shall appear fun color bright vibrant,look and feel,1
+557,product shall comply city chicago application development guide framework application development framework provide structured graphical user interface,look and feel,1
+581,interface must summarize data fashion appealing ccr management every report type must least one high level summary shown result dashboard interface,look and feel,1
+439,website cater tribe nigeria,look and feel,1
+599,page shall contain navigation menu show index current page contained,look and feel,1
+554,interface shall simple look interface usability survey 90 beta tester must report interface adequately simple,look and feel,1
+210,appearance product shall appear professional,look and feel,1
+622,intranet page display appropriately resolution 800x600 higher display page correct 95 resolution prior implementation remaining 5 corrected within week notification incorrect display,look and feel,1
+1,application shall match color schema set forth department homeland security,look and feel,1
+490,product shall simulate look ship sea,look and feel,1
+495,shot marked hit product shall simulate sound shot hitting target,look and feel,1
+30,system shall professional appearance,look and feel,1
+578,system shall use ibm ccr branding standard interface must one ibm logo one ccr logo,look and feel,1
+440,website shall offensive religious ethnic group,look and feel,1
+492,product shall display type ship grid using image specific type ship,look and feel,1
+490,product shall simulate look ship sea,look and feel,1
+386,website design modern clean concise,look and feel,1
+439,website cater tribe nigeria,look and feel,1
+441,website appeal african nigerian,look and feel,1
+554,interface shall simple look interface usability survey 90 beta tester must report interface adequately simple,look and feel,1
+441,website appeal african nigerian,look and feel,1
+581,interface must summarize data fashion appealing ccr management every report type must least one high level summary shown result dashboard interface,look and feel,1
+441,website appeal african nigerian,look and feel,1
+440,website shall offensive religious ethnic group,look and feel,1
+555,interface shall appealing caller supervisor interface usability survey 80 beta tester must report interface appealing,look and feel,1
+384,website shall attractive audience website shall appear fun color bright vibrant,look and feel,1
+579,system shall displayable work computer ccr user may system interface shall formatted display 800 600 pixel resolution,look and feel,1
+441,website appeal african nigerian,look and feel,1
+441,website appeal african nigerian,look and feel,1
+440,website shall offensive religious ethnic group,look and feel,1
+1,application shall match color schema set forth department homeland security,look and feel,1
+580,system interface use ccr nomenclature system must use nomenclature used existing wcs system report,look and feel,1
+622,intranet page display appropriately resolution 800x600 higher display page correct 95 resolution prior implementation remaining 5 corrected within week notification incorrect display,look and feel,1
+210,appearance product shall appear professional,look and feel,1
+1,application shall match color schema set forth department homeland security,look and feel,1
+494,shot marked miss product shall simulate sound shot missing target,look and feel,1
+581,interface must summarize data fashion appealing ccr management every report type must least one high level summary shown result dashboard interface,look and feel,1
+29,user interface shall standard menu button navigation,look and feel,1
+30,system shall professional appearance,look and feel,1
+580,system interface use ccr nomenclature system must use nomenclature used existing wcs system report,look and feel,1
+297,product shall expected operate least 5 year customer installation,scalability,8
+682,payroll system shall scalable support unlimited growth number employee,scalability,8
+222,product shall able handle 1500 simultaneous user system shall perform 1500 user time,scalability,8
+569,product shall able process transaction product shall process minimum 1 million transaction per year,scalability,8
+80,system shall able handle user request usage business hour,scalability,8
+590,wcs system shall ability include data region outside united state accessed user outside united state approved ccr management,scalability,8
+680,effort needed administer payroll system measured hour per month system administrator time shall increase increase number employee,scalability,8
+681,business rule repository shall scalable manage unrestricted number additional rule,scalability,8
+664,transaction authorization system shall scale potential hourly spike 1 000 authorization request peak holiday shopping,scalability,8
+682,payroll system shall scalable support unlimited growth number employee,scalability,8
+589,wcs system shall ability connect designated wcs database currently included system,scalability,8
+682,payroll system shall scalable support unlimited growth number employee,scalability,8
+590,wcs system shall ability include data region outside united state accessed user outside united state approved ccr management,scalability,8
+679,elapsed duration time required produce statement report showing information transaction shall based upon much data presented rather total quantity stored data,scalability,8
+296,product shall able process 10 000 transaction per hour within two year launch number increase 20 000 release 2,scalability,8
+297,product shall expected operate least 5 year customer installation,scalability,8
+80,system shall able handle user request usage business hour,scalability,8
+320,language product shall accommodate target market country 90 survey respondent target market country find language product acceptable,scalability,8
+296,product shall able process 10 000 transaction per hour within two year launch number increase 20 000 release 2,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+222,product shall able handle 1500 simultaneous user system shall perform 1500 user time,scalability,8
+658,effort needed administer payroll system measured hour per month system administrator time shall increase increase number employee,scalability,8
+589,wcs system shall ability connect designated wcs database currently included system,scalability,8
+222,product shall able handle 1500 simultaneous user system shall perform 1500 user time,scalability,8
+569,product shall able process transaction product shall process minimum 1 million transaction per year,scalability,8
+406,streaming server support 50 simultaneous streaming connection,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+406,streaming server support 50 simultaneous streaming connection,scalability,8
+679,elapsed duration time required produce statement report showing information transaction shall based upon much data presented rather total quantity stored data,scalability,8
+683,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+81,system shall cater 10 simultaneous user 9am 5pm,scalability,8
+296,product shall able process 10 000 transaction per hour within two year launch number increase 20 000 release 2,scalability,8
+222,product shall able handle 1500 simultaneous user system shall perform 1500 user time,scalability,8
+409,website shall capable supporting 100 000 customer,scalability,8
+590,wcs system shall ability include data region outside united state accessed user outside united state approved ccr management,scalability,8
+658,effort needed administer payroll system measured hour per month system administrator time shall increase increase number employee,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+408,server support maximum 1 000 simultaneous user,scalability,8
+223,average number recycled part record per day shall 50 000,scalability,8
+408,server support maximum 1 000 simultaneous user,scalability,8
+658,effort needed administer payroll system measured hour per month system administrator time shall increase increase number employee,scalability,8
+664,transaction authorization system shall scale potential hourly spike 1 000 authorization request peak holiday shopping,scalability,8
+683,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+408,server support maximum 1 000 simultaneous user,scalability,8
+681,business rule repository shall scalable manage unrestricted number additional rule,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+683,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+683,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+664,transaction authorization system shall scale potential hourly spike 1 000 authorization request peak holiday shopping,scalability,8
+407,streaming server support maximum 700 movie new server added support movie,scalability,8
+81,system shall cater 10 simultaneous user 9am 5pm,scalability,8
+664,transaction authorization system shall scale potential hourly spike 1 000 authorization request peak holiday shopping,scalability,8
+222,product shall able handle 1500 simultaneous user system shall perform 1500 user time,scalability,8
+680,effort needed administer payroll system measured hour per month system administrator time shall increase increase number employee,scalability,8
+657,elapsed duration time required produce statement report showing information transaction shall based upon much data presented rather total quantity stored data,scalability,8
+682,payroll system shall scalable support unlimited growth number employee,scalability,8
+408,server support maximum 1 000 simultaneous user,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+662,claim system shall support assigned adjustor following catastrophic event,scalability,8
+683,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+406,streaming server support 50 simultaneous streaming connection,scalability,8
+681,business rule repository shall scalable manage unrestricted number additional rule,scalability,8
+320,language product shall accommodate target market country 90 survey respondent target market country find language product acceptable,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+297,product shall expected operate least 5 year customer installation,scalability,8
+569,product shall able process transaction product shall process minimum 1 million transaction per year,scalability,8
+657,elapsed duration time required produce statement report showing information transaction shall based upon much data presented rather total quantity stored data,scalability,8
+589,wcs system shall ability connect designated wcs database currently included system,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+295,product shall capable handling 1 000 concurrent request number increase 2 000 release 2 concurrency capacity must able handle peak scheduling time early morning late afternoon hour,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+406,streaming server support 50 simultaneous streaming connection,scalability,8
+590,wcs system shall ability include data region outside united state accessed user outside united state approved ccr management,scalability,8
+409,website shall capable supporting 100 000 customer,scalability,8
+295,product shall capable handling 1 000 concurrent request number increase 2 000 release 2 concurrency capacity must able handle peak scheduling time early morning late afternoon hour,scalability,8
+406,streaming server support 50 simultaneous streaming connection,scalability,8
+681,business rule repository shall scalable manage unrestricted number additional rule,scalability,8
+81,system shall cater 10 simultaneous user 9am 5pm,scalability,8
+659,business rule repository shall scalable manage unrestricted number additional rule,scalability,8
+679,elapsed duration time required produce statement report showing information transaction shall based upon much data presented rather total quantity stored data,scalability,8
+80,system shall able handle user request usage business hour,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+407,streaming server support maximum 700 movie new server added support movie,scalability,8
+223,average number recycled part record per day shall 50 000,scalability,8
+222,product shall able handle 1500 simultaneous user system shall perform 1500 user time,scalability,8
+295,product shall capable handling 1 000 concurrent request number increase 2 000 release 2 concurrency capacity must able handle peak scheduling time early morning late afternoon hour,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+657,elapsed duration time required produce statement report showing information transaction shall based upon much data presented rather total quantity stored data,scalability,8
+407,streaming server support maximum 700 movie new server added support movie,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+82,system shall capable processing 100 nursing student class next 10 year,scalability,8
+296,product shall able process 10 000 transaction per hour within two year launch number increase 20 000 release 2,scalability,8
+569,product shall able process transaction product shall process minimum 1 million transaction per year,scalability,8
+408,server support maximum 1 000 simultaneous user,scalability,8
+663,account management system shall support unlimited customer account transaction relationship,scalability,8
+569,product shall able process transaction product shall process minimum 1 million transaction per year,scalability,8
+682,payroll system shall scalable support unlimited growth number employee,scalability,8
+224,product shall able handle 10 000 concurrent user within 2 year initial launch,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+660,payroll system shall scalable support unlimited growth number employee,scalability,8
+320,language product shall accommodate target market country 90 survey respondent target market country find language product acceptable,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+406,streaming server support 50 simultaneous streaming connection,scalability,8
+589,wcs system shall ability connect designated wcs database currently included system,scalability,8
+407,streaming server support maximum 700 movie new server added support movie,scalability,8
+681,business rule repository shall scalable manage unrestricted number additional rule,scalability,8
+80,system shall able handle user request usage business hour,scalability,8
+683,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+661,travel reservation system shall scalable accommodate use unlimited number agency office worldwide,scalability,8
+664,transaction authorization system shall scale potential hourly spike 1 000 authorization request peak holiday shopping,scalability,8
+590,wcs system shall ability include data region outside united state accessed user outside united state approved ccr management,scalability,8
+569,product shall able process transaction product shall process minimum 1 million transaction per year,scalability,8
+407,streaming server support maximum 700 movie new server added support movie,scalability,8
+296,product shall able process 10 000 transaction per hour within two year launch number increase 20 000 release 2,scalability,8
+320,language product shall accommodate target market country 90 survey respondent target market country find language product acceptable,scalability,8
+408,server support maximum 1 000 simultaneous user,scalability,8
+664,transaction authorization system shall scale potential hourly spike 1 000 authorization request peak holiday shopping,scalability,8
+406,streaming server support 50 simultaneous streaming connection,scalability,8
+81,system shall cater 10 simultaneous user 9am 5pm,scalability,8
+657,elapsed duration time required produce statement report showing information transaction shall based upon much data presented rather total quantity stored data,scalability,8
+408,server support maximum 1 000 simultaneous user,scalability,8
+573,product shall updated regular basis product new major feature introduced every six month quarterly maintenance release every six month,maintainability,11
+410,product shall expected operate within maximum maintenance budget minimum 2 year,maintainability,11
+617,change revenue expense formula must applied rf system every year prior budgeting process start revenue expense formula updated within one week receipt 2 week allotted testing budget calculation conducted jointly project development team pcg finance,maintainability,11
+306,product must designed using design pattern coding best practice 90 maintenance software developer able integrate new functionality product 2 working day,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+572,product shall continue operate upgrade change new resource addition product shall able continue operate interruption service due new resource addition,maintainability,11
+573,product shall updated regular basis product new major feature introduced every six month quarterly maintenance release every six month,maintainability,11
+306,product must designed using design pattern coding best practice 90 maintenance software developer able integrate new functionality product 2 working day,maintainability,11
+574,product shall operate every platform product shall accommodate new technology without change architecture,maintainability,11
+572,product shall continue operate upgrade change new resource addition product shall able continue operate interruption service due new resource addition,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+410,product shall expected operate within maximum maintenance budget minimum 2 year,maintainability,11
+652,maintenance developer shall able modify existing statement conform revised regulation federal government 24 labor hour le development testing effort,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+410,product shall expected operate within maximum maintenance budget minimum 2 year,maintainability,11
+617,change revenue expense formula must applied rf system every year prior budgeting process start revenue expense formula updated within one week receipt 2 week allotted testing budget calculation conducted jointly project development team pcg finance,maintainability,11
+593,wcs system must run query wcs database specified day update available data available ccr user query must made external database data refresh week,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+593,wcs system must run query wcs database specified day update available data available ccr user query must made external database data refresh week,maintainability,11
+307,product must highly configurable use various database management system end user 80 end user able integrate new database management system product without changing product software code,maintainability,11
+572,product shall continue operate upgrade change new resource addition product shall able continue operate interruption service due new resource addition,maintainability,11
+410,product shall expected operate within maximum maintenance budget minimum 2 year,maintainability,11
+612,new system version release shall released beginning nfl season,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+652,maintenance developer shall able modify existing statement conform revised regulation federal government 24 labor hour le development testing effort,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+611,application update shall occur 3am 6 cst wednesday morning middle nfl season,maintainability,11
+418,promotional update website take day update,maintainability,11
+611,application update shall occur 3am 6 cst wednesday morning middle nfl season,maintainability,11
+652,maintenance developer shall able modify existing statement conform revised regulation federal government 24 labor hour le development testing effort,maintainability,11
+611,application update shall occur 3am 6 cst wednesday morning middle nfl season,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+594,change update addition wcs system shall updated wcs developer wcs user guide every change must reflected wcs system documentation,maintainability,11
+307,product must highly configurable use various database management system end user 80 end user able integrate new database management system product without changing product software code,maintainability,11
+410,product shall expected operate within maximum maintenance budget minimum 2 year,maintainability,11
+651,application development process must regression test procedure allows complete testing within 2 business day,maintainability,11
+611,application update shall occur 3am 6 cst wednesday morning middle nfl season,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+656,system shall shut maintenance 24 hour period,maintainability,11
+593,wcs system must run query wcs database specified day update available data available ccr user query must made external database data refresh week,maintainability,11
+574,product shall operate every platform product shall accommodate new technology without change architecture,maintainability,11
+573,product shall updated regular basis product new major feature introduced every six month quarterly maintenance release every six month,maintainability,11
+617,change revenue expense formula must applied rf system every year prior budgeting process start revenue expense formula updated within one week receipt 2 week allotted testing budget calculation conducted jointly project development team pcg finance,maintainability,11
+651,application development process must regression test procedure allows complete testing within 2 business day,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+550,product shall internet browser independent product must run using internet explorer netscape navigator,maintainability,11
+593,wcs system must run query wcs database specified day update available data available ccr user query must made external database data refresh week,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+612,new system version release shall released beginning nfl season,maintainability,11
+550,product shall internet browser independent product must run using internet explorer netscape navigator,maintainability,11
+593,wcs system must run query wcs database specified day update available data available ccr user query must made external database data refresh week,maintainability,11
+307,product must highly configurable use various database management system end user 80 end user able integrate new database management system product without changing product software code,maintainability,11
+653,new consumer type code must able added product within 12 business hour,maintainability,11
+306,product must designed using design pattern coding best practice 90 maintenance software developer able integrate new functionality product 2 working day,maintainability,11
+594,change update addition wcs system shall updated wcs developer wcs user guide every change must reflected wcs system documentation,maintainability,11
+418,promotional update website take day update,maintainability,11
+410,product shall expected operate within maximum maintenance budget minimum 2 year,maintainability,11
+550,product shall internet browser independent product must run using internet explorer netscape navigator,maintainability,11
+651,application development process must regression test procedure allows complete testing within 2 business day,maintainability,11
+594,change update addition wcs system shall updated wcs developer wcs user guide every change must reflected wcs system documentation,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+308,maintenance release offered customer year release shall take longer 5 minute 80 customer base install,maintainability,11
+572,product shall continue operate upgrade change new resource addition product shall able continue operate interruption service due new resource addition,maintainability,11
+617,change revenue expense formula must applied rf system every year prior budgeting process start revenue expense formula updated within one week receipt 2 week allotted testing budget calculation conducted jointly project development team pcg finance,maintainability,11
+611,application update shall occur 3am 6 cst wednesday morning middle nfl season,maintainability,11
+617,change revenue expense formula must applied rf system every year prior budgeting process start revenue expense formula updated within one week receipt 2 week allotted testing budget calculation conducted jointly project development team pcg finance,maintainability,11
+473,washing parameter updated scheduled maintenance hour,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+654,system must maintain service log system start must check system service due scheduled service session carried within 5 calendar day scheduled date system discontinue operation,maintainability,11
+574,product shall operate every platform product shall accommodate new technology without change architecture,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+593,wcs system must run query wcs database specified day update available data available ccr user query must made external database data refresh week,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+594,change update addition wcs system shall updated wcs developer wcs user guide every change must reflected wcs system documentation,maintainability,11
+306,product must designed using design pattern coding best practice 90 maintenance software developer able integrate new functionality product 2 working day,maintainability,11
+655,development programmer least one year experience supporting software application shall able add new product feature including source code modification testing one week labor,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+617,change revenue expense formula must applied rf system every year prior budgeting process start revenue expense formula updated within one week receipt 2 week allotted testing budget calculation conducted jointly project development team pcg finance,maintainability,11
+594,change update addition wcs system shall updated wcs developer wcs user guide every change must reflected wcs system documentation,maintainability,11
+572,product shall continue operate upgrade change new resource addition product shall able continue operate interruption service due new resource addition,maintainability,11
+574,product shall operate every platform product shall accommodate new technology without change architecture,maintainability,11
+611,application update shall occur 3am 6 cst wednesday morning middle nfl season,maintainability,11
+593,wcs system must run query wcs database specified day update available data available ccr user query must made external database data refresh week,maintainability,11
+307,product must highly configurable use various database management system end user 80 end user able integrate new database management system product without changing product software code,maintainability,11
+651,application development process must regression test procedure allows complete testing within 2 business day,maintainability,11
+611,application update shall occur 3am 6 cst wednesday morning middle nfl season,maintainability,11
+572,product shall continue operate upgrade change new resource addition product shall able continue operate interruption service due new resource addition,maintainability,11
+573,product shall updated regular basis product new major feature introduced every six month quarterly maintenance release every six month,maintainability,11
+418,promotional update website take day update,maintainability,11
+306,product must designed using design pattern coding best practice 90 maintenance software developer able integrate new functionality product 2 working day,maintainability,11
+651,application development process must regression test procedure allows complete testing within 2 business day,maintainability,11
+656,system shall shut maintenance 24 hour period,maintainability,11
+310,customer shall able easily integrate new building map product throughout product lifecycle integration new map product shall possible little support product support staff,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+653,new consumer type code must able added product within 12 business hour,maintainability,11
+651,application development process must regression test procedure allows complete testing within 2 business day,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+612,new system version release shall released beginning nfl season,maintainability,11
+652,maintenance developer shall able modify existing statement conform revised regulation federal government 24 labor hour le development testing effort,maintainability,11
+617,change revenue expense formula must applied rf system every year prior budgeting process start revenue expense formula updated within one week receipt 2 week allotted testing budget calculation conducted jointly project development team pcg finance,maintainability,11
+652,maintenance developer shall able modify existing statement conform revised regulation federal government 24 labor hour le development testing effort,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+651,application development process must regression test procedure allows complete testing within 2 business day,maintainability,11
+654,system must maintain service log system start must check system service due scheduled service session carried within 5 calendar day scheduled date system discontinue operation,maintainability,11
+612,new system version release shall released beginning nfl season,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+574,product shall operate every platform product shall accommodate new technology without change architecture,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+306,product must designed using design pattern coding best practice 90 maintenance software developer able integrate new functionality product 2 working day,maintainability,11
+650,customer service call center shall analyze 95 problem report within 2 hour item classified urgent shall repaired within 3 business day 98 reported case,maintainability,11
+573,product shall updated regular basis product new major feature introduced every six month quarterly maintenance release every six month,maintainability,11
+618,new branch complex district region revenue expense account added bdw must reflected rf system 100 entity mentioned available october month end loaded rf system prior budget start process,maintainability,11
+573,product shall updated regular basis product new major feature introduced every six month quarterly maintenance release every six month,maintainability,11
+568,product shall robust fault tolerance product shall fault tolerance using recovery technique compensatory transaction routing around failure,fault tolerance,6
+294,product shall create exception log problem encountered within product transmission company analysis resolution,fault tolerance,6
+44,product shall operate offline mode whenever internet connection unavailable,fault tolerance,6
+45,product shall allow user view previously downloaded search result cma report appointment,fault tolerance,6
+568,product shall robust fault tolerance product shall fault tolerance using recovery technique compensatory transaction routing around failure,fault tolerance,6
+44,product shall operate offline mode whenever internet connection unavailable,fault tolerance,6
+45,product shall allow user view previously downloaded search result cma report appointment,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+568,product shall robust fault tolerance product shall fault tolerance using recovery technique compensatory transaction routing around failure,fault tolerance,6
+44,product shall operate offline mode whenever internet connection unavailable,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+294,product shall create exception log problem encountered within product transmission company analysis resolution,fault tolerance,6
+47,100 saved user preference shall restored system come back online,fault tolerance,6
+44,product shall operate offline mode whenever internet connection unavailable,fault tolerance,6
+294,product shall create exception log problem encountered within product transmission company analysis resolution,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+45,product shall allow user view previously downloaded search result cma report appointment,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+294,product shall create exception log problem encountered within product transmission company analysis resolution,fault tolerance,6
+45,product shall allow user view previously downloaded search result cma report appointment,fault tolerance,6
+47,100 saved user preference shall restored system come back online,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+318,product dependent database filesystems shall remain operational result input malicious data product dependent database filesystems shall crash 100 time malicious data input product,fault tolerance,6
+47,100 saved user preference shall restored system come back online,fault tolerance,6
+568,product shall robust fault tolerance product shall fault tolerance using recovery technique compensatory transaction routing around failure,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+568,product shall robust fault tolerance product shall fault tolerance using recovery technique compensatory transaction routing around failure,fault tolerance,6
+45,product shall allow user view previously downloaded search result cma report appointment,fault tolerance,6
+568,product shall robust fault tolerance product shall fault tolerance using recovery technique compensatory transaction routing around failure,fault tolerance,6
+294,product shall create exception log problem encountered within product transmission company analysis resolution,fault tolerance,6
+46,product shall retain user preference event failure,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+405,website shall continue operate payment gateway go,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+568,product shall robust fault tolerance product shall fault tolerance using recovery technique compensatory transaction routing around failure,fault tolerance,6
+46,product shall retain user preference event failure,fault tolerance,6
+44,product shall operate offline mode whenever internet connection unavailable,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+405,website shall continue operate payment gateway go,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+45,product shall allow user view previously downloaded search result cma report appointment,fault tolerance,6
+405,website shall continue operate payment gateway go,fault tolerance,6
+45,product shall allow user view previously downloaded search result cma report appointment,fault tolerance,6
+294,product shall create exception log problem encountered within product transmission company analysis resolution,fault tolerance,6
+44,product shall operate offline mode whenever internet connection unavailable,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+318,product dependent database filesystems shall remain operational result input malicious data product dependent database filesystems shall crash 100 time malicious data input product,fault tolerance,6
+294,product shall create exception log problem encountered within product transmission company analysis resolution,fault tolerance,6
+405,website shall continue operate payment gateway go,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+46,product shall retain user preference event failure,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+46,product shall retain user preference event failure,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+567,product shall robust product shall fault avoidance based standard adoption,fault tolerance,6
+404,website shall continue operate streaming server go,fault tolerance,6
+356,system shall meet applicable accounting standard final version system must successfully pa independent audit performed certified auditor,legal,10
+176,dispute application must maintain detailed history every action user take dispute case ensures complete audit trail question arise later regard particular dispute case,legal,10
+172,dispute application must conform legal requirement specified merchant operating regulation,legal,10
+173,business rule specified dispute system shall compliance merchant operating regulation,legal,10
+444,website comply w3c standard,legal,10
+445,php code comply pear standard,legal,10
+356,system shall meet applicable accounting standard final version system must successfully pa independent audit performed certified auditor,legal,10
+172,dispute application must conform legal requirement specified merchant operating regulation,legal,10
+173,business rule specified dispute system shall compliance merchant operating regulation,legal,10
+443,izognmovies shall meet licensing requirement set forth appropriate organization order stream african movie,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+356,system shall meet applicable accounting standard final version system must successfully pa independent audit performed certified auditor,legal,10
+172,dispute application must conform legal requirement specified merchant operating regulation,legal,10
+443,izognmovies shall meet licensing requirement set forth appropriate organization order stream african movie,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+237,product must comply sarbanes oxley,legal,10
+176,dispute application must maintain detailed history every action user take dispute case ensures complete audit trail question arise later regard particular dispute case,legal,10
+175,business rule specified dispute system shall compliance guideline regulation e regulation z,legal,10
+172,dispute application must conform legal requirement specified merchant operating regulation,legal,10
+176,dispute application must maintain detailed history every action user take dispute case ensures complete audit trail question arise later regard particular dispute case,legal,10
+444,website comply w3c standard,legal,10
+237,product must comply sarbanes oxley,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+444,website comply w3c standard,legal,10
+443,izognmovies shall meet licensing requirement set forth appropriate organization order stream african movie,legal,10
+173,business rule specified dispute system shall compliance merchant operating regulation,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+176,dispute application must maintain detailed history every action user take dispute case ensures complete audit trail question arise later regard particular dispute case,legal,10
+173,business rule specified dispute system shall compliance merchant operating regulation,legal,10
+175,business rule specified dispute system shall compliance guideline regulation e regulation z,legal,10
+237,product must comply sarbanes oxley,legal,10
+177,action modify existing dispute case must recorded case history,legal,10
+175,business rule specified dispute system shall compliance guideline regulation e regulation z,legal,10
+356,system shall meet applicable accounting standard final version system must successfully pa independent audit performed certified auditor,legal,10
+445,php code comply pear standard,legal,10
+237,product must comply sarbanes oxley,legal,10
+356,system shall meet applicable accounting standard final version system must successfully pa independent audit performed certified auditor,legal,10
+445,php code comply pear standard,legal,10
+173,business rule specified dispute system shall compliance merchant operating regulation,legal,10
+356,system shall meet applicable accounting standard final version system must successfully pa independent audit performed certified auditor,legal,10
+176,dispute application must maintain detailed history every action user take dispute case ensures complete audit trail question arise later regard particular dispute case,legal,10
+444,website comply w3c standard,legal,10
+174,dispute application must conform legal requirement specified regulation e regulation z govern credit card dispute processing,legal,10
+237,product must comply sarbanes oxley,legal,10
+238,product shall comply estimatics law relating recycled part usage,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+444,website comply w3c standard,legal,10
+445,php code comply pear standard,legal,10
+443,izognmovies shall meet licensing requirement set forth appropriate organization order stream african movie,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+356,system shall meet applicable accounting standard final version system must successfully pa independent audit performed certified auditor,legal,10
+174,dispute application must conform legal requirement specified regulation e regulation z govern credit card dispute processing,legal,10
+172,dispute application must conform legal requirement specified merchant operating regulation,legal,10
+237,product must comply sarbanes oxley,legal,10
+238,product shall comply estimatics law relating recycled part usage,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+444,website comply w3c standard,legal,10
+173,business rule specified dispute system shall compliance merchant operating regulation,legal,10
+238,product shall comply estimatics law relating recycled part usage,legal,10
+444,website comply w3c standard,legal,10
+445,php code comply pear standard,legal,10
+173,business rule specified dispute system shall compliance merchant operating regulation,legal,10
+176,dispute application must maintain detailed history every action user take dispute case ensures complete audit trail question arise later regard particular dispute case,legal,10
+443,izognmovies shall meet licensing requirement set forth appropriate organization order stream african movie,legal,10
+172,dispute application must conform legal requirement specified merchant operating regulation,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+445,php code comply pear standard,legal,10
+177,action modify existing dispute case must recorded case history,legal,10
+176,dispute application must maintain detailed history every action user take dispute case ensures complete audit trail question arise later regard particular dispute case,legal,10
+238,product shall comply estimatics law relating recycled part usage,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+174,dispute application must conform legal requirement specified regulation e regulation z govern credit card dispute processing,legal,10
+445,php code comply pear standard,legal,10
+237,product must comply sarbanes oxley,legal,10
+174,dispute application must conform legal requirement specified regulation e regulation z govern credit card dispute processing,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+239,product shall comply insurance regulation regarding claim processing,legal,10
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+676,course curriculum management system shall allow multiple independent course offered multiple scheduled offering information course shall rigorously separated user shall able view otherwise access information course connected,flexibility,12
+675,billing system shall able process invoice payment multiple different currency currency conversion calculation detailed business rule enforced functional requirement,flexibility,12
+678,system shall ability add new user notification method developing plugging software necessary support new method new user notification method shall require change core software system allow introduction,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+674,piece text might displayed user shall reside program source code every piece text user might see must modifiable without changing source code user visible text hard coded,flexibility,12
+675,billing system shall able process invoice payment multiple different currency currency conversion calculation detailed business rule enforced functional requirement,flexibility,12
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+676,course curriculum management system shall allow multiple independent course offered multiple scheduled offering information course shall rigorously separated user shall able view otherwise access information course connected,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+676,course curriculum management system shall allow multiple independent course offered multiple scheduled offering information course shall rigorously separated user shall able view otherwise access information course connected,flexibility,12
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+673,user shall able nominate preferred language entering personal information,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+673,user shall able nominate preferred language entering personal information,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+675,billing system shall able process invoice payment multiple different currency currency conversion calculation detailed business rule enforced functional requirement,flexibility,12
+674,piece text might displayed user shall reside program source code every piece text user might see must modifiable without changing source code user visible text hard coded,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+675,billing system shall able process invoice payment multiple different currency currency conversion calculation detailed business rule enforced functional requirement,flexibility,12
+678,system shall ability add new user notification method developing plugging software necessary support new method new user notification method shall require change core software system allow introduction,flexibility,12
+674,piece text might displayed user shall reside program source code every piece text user might see must modifiable without changing source code user visible text hard coded,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+674,piece text might displayed user shall reside program source code every piece text user might see must modifiable without changing source code user visible text hard coded,flexibility,12
+673,user shall able nominate preferred language entering personal information,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+671,provision shall made future usage multiple language,flexibility,12
+675,billing system shall able process invoice payment multiple different currency currency conversion calculation detailed business rule enforced functional requirement,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+674,piece text might displayed user shall reside program source code every piece text user might see must modifiable without changing source code user visible text hard coded,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+676,course curriculum management system shall allow multiple independent course offered multiple scheduled offering information course shall rigorously separated user shall able view otherwise access information course connected,flexibility,12
+676,course curriculum management system shall allow multiple independent course offered multiple scheduled offering information course shall rigorously separated user shall able view otherwise access information course connected,flexibility,12
+676,course curriculum management system shall allow multiple independent course offered multiple scheduled offering information course shall rigorously separated user shall able view otherwise access information course connected,flexibility,12
+674,piece text might displayed user shall reside program source code every piece text user might see must modifiable without changing source code user visible text hard coded,flexibility,12
+672,structure data store shall multi lingual support shall necessitate additional component need replace current component,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+676,course curriculum management system shall allow multiple independent course offered multiple scheduled offering information course shall rigorously separated user shall able view otherwise access information course connected,flexibility,12
+675,billing system shall able process invoice payment multiple different currency currency conversion calculation detailed business rule enforced functional requirement,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+677,employee benefit system shall suitable use abc corporation office country abc corporation operates assumed user system speak common language translation multiple language user interface report documentation business material necessary,flexibility,12
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+669,system shall developed microsoft vista macintosh operating system platform,portability,7
+668,product designed run business office intent version run manufacturing assembly plant,portability,7
+53,product expected run window ce palm operating system,portability,7
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+667,product targeted sale next year european market,portability,7
+668,product designed run business office intent version run manufacturing assembly plant,portability,7
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+669,system shall developed microsoft vista macintosh operating system platform,portability,7
+53,product expected run window ce palm operating system,portability,7
+669,system shall developed microsoft vista macintosh operating system platform,portability,7
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+666,time zone shall obvious user whenever time element displayed,portability,7
+53,product expected run window ce palm operating system,portability,7
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+53,product expected run window ce palm operating system,portability,7
+666,time zone shall obvious user whenever time element displayed,portability,7
+53,product expected run window ce palm operating system,portability,7
+670,homeaccounting software may ported personal computer workstation environment supporting least 16 bit color 15 inch display monitor achieving specfp95 benchmark rating least 5 0 data storage capacity least 8 mb,portability,7
+668,product designed run business office intent version run manufacturing assembly plant,portability,7
+667,product targeted sale next year european market,portability,7
+53,product expected run window ce palm operating system,portability,7
+668,product designed run business office intent version run manufacturing assembly plant,portability,7
+667,product targeted sale next year european market,portability,7
+670,homeaccounting software may ported personal computer workstation environment supporting least 16 bit color 15 inch display monitor achieving specfp95 benchmark rating least 5 0 data storage capacity least 8 mb,portability,7
+53,product expected run window ce palm operating system,portability,7
+667,product targeted sale next year european market,portability,7
+666,time zone shall obvious user whenever time element displayed,portability,7
+670,homeaccounting software may ported personal computer workstation environment supporting least 16 bit color 15 inch display monitor achieving specfp95 benchmark rating least 5 0 data storage capacity least 8 mb,portability,7
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+53,product expected run window ce palm operating system,portability,7
+668,product designed run business office intent version run manufacturing assembly plant,portability,7
+670,homeaccounting software may ported personal computer workstation environment supporting least 16 bit color 15 inch display monitor achieving specfp95 benchmark rating least 5 0 data storage capacity least 8 mb,portability,7
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+667,product targeted sale next year european market,portability,7
+670,homeaccounting software may ported personal computer workstation environment supporting least 16 bit color 15 inch display monitor achieving specfp95 benchmark rating least 5 0 data storage capacity least 8 mb,portability,7
+669,system shall developed microsoft vista macintosh operating system platform,portability,7
+669,system shall developed microsoft vista macintosh operating system platform,portability,7
+669,system shall developed microsoft vista macintosh operating system platform,portability,7
+667,product targeted sale next year european market,portability,7
+665,timestamps recorded transaction processing system shall utc universal time coordinated placed permanent storage,portability,7
+670,homeaccounting software may ported personal computer workstation environment supporting least 16 bit color 15 inch display monitor achieving specfp95 benchmark rating least 5 0 data storage capacity least 8 mb,portability,7
+402,website shall achieve 99 5 time,availability,3
+79,system shall achieve 95 time,availability,3
+548,system shall high availability every day year system must available use 12 00am 6 00pm day year,availability,3
+3,product shall available normal business hour long user access client pc system available 99 time first six month operation,availability,3
+566,product shall available 99 time rationale avoid service interruption busiest customer service response period product shall available 99 99 time regular business day,availability,3
+640,new installation system shall available first time use within 24 hour start install,availability,3
+641,online registration system shall permit backing registration database registration activity going,availability,3
+638,automated teller machine shall least 99 0 percent available weekday 6 00 11 00 p local time machine shall least 99 95 percent available weekday 4 00 p 6 00 p local time,availability,3
+549,system must available use 7 00am 11 59pm day year,availability,3
+566,product shall available 99 time rationale avoid service interruption busiest customer service response period product shall available 99 99 time regular business day,availability,3
+639,unless system non operational system shall present user notification informing system unavailable,availability,3
+401,website shall available use 24 hour per day 365 day per year,availability,3
+402,website shall achieve 99 5 time,availability,3
+3,product shall available normal business hour long user access client pc system available 99 time first six month operation,availability,3
+403,movie shall streamed demand time day,availability,3
+401,website shall available use 24 hour per day 365 day per year,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+79,system shall achieve 95 time,availability,3
+607,application shall downtime 10 minute per year,availability,3
+549,system must available use 7 00am 11 59pm day year,availability,3
+79,system shall achieve 95 time,availability,3
+548,system shall high availability every day year system must available use 12 00am 6 00pm day year,availability,3
+421,system provide 24 hour 800 toll free number support customer,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+421,system provide 24 hour 800 toll free number support customer,availability,3
+639,unless system non operational system shall present user notification informing system unavailable,availability,3
+42,product shall available use 24 hour per day 365 day per year,availability,3
+401,website shall available use 24 hour per day 365 day per year,availability,3
+79,system shall achieve 95 time,availability,3
+497,product shall available 24 hour per day seven day per week,availability,3
+566,product shall available 99 time rationale avoid service interruption busiest customer service response period product shall available 99 99 time regular business day,availability,3
+607,application shall downtime 10 minute per year,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+472,defect report available technical unit 24x7 basis,availability,3
+220,product shall adhere corporate online availability schedule application brought within 98 scheduled outage per availability schedule,availability,3
+472,defect report available technical unit 24x7 basis,availability,3
+607,application shall downtime 10 minute per year,availability,3
+638,automated teller machine shall least 99 0 percent available weekday 6 00 11 00 p local time machine shall least 99 95 percent available weekday 4 00 p 6 00 p local time,availability,3
+472,defect report available technical unit 24x7 basis,availability,3
+641,online registration system shall permit backing registration database registration activity going,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+638,automated teller machine shall least 99 0 percent available weekday 6 00 11 00 p local time machine shall least 99 95 percent available weekday 4 00 p 6 00 p local time,availability,3
+423,velkat staff available phone support 7am 7pm f provide technical support izogn administrator,availability,3
+42,product shall available use 24 hour per day 365 day per year,availability,3
+638,automated teller machine shall least 99 0 percent available weekday 6 00 11 00 p local time machine shall least 99 95 percent available weekday 4 00 p 6 00 p local time,availability,3
+79,system shall achieve 95 time,availability,3
+640,new installation system shall available first time use within 24 hour start install,availability,3
+588,wcs system shall available time long ibm internal intranet w3 accessible wcs system available 95 time ibm internal intranet w3 available,availability,3
+472,defect report available technical unit 24x7 basis,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+636,cif system shall achieve 99 5 time,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+421,system provide 24 hour 800 toll free number support customer,availability,3
+641,online registration system shall permit backing registration database registration activity going,availability,3
+403,movie shall streamed demand time day,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+402,website shall achieve 99 5 time,availability,3
+548,system shall high availability every day year system must available use 12 00am 6 00pm day year,availability,3
+588,wcs system shall available time long ibm internal intranet w3 accessible wcs system available 95 time ibm internal intranet w3 available,availability,3
+549,system must available use 7 00am 11 59pm day year,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+293,aside server failure software product shall achieve 99 99 time,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+421,system provide 24 hour 800 toll free number support customer,availability,3
+566,product shall available 99 time rationale avoid service interruption busiest customer service response period product shall available 99 99 time regular business day,availability,3
+497,product shall available 24 hour per day seven day per week,availability,3
+293,aside server failure software product shall achieve 99 99 time,availability,3
+421,system provide 24 hour 800 toll free number support customer,availability,3
+641,online registration system shall permit backing registration database registration activity going,availability,3
+42,product shall available use 24 hour per day 365 day per year,availability,3
+613,rf system available 24 7 especially budgeting period rf system shall available 90 time year 98 budgeting period 2 time system become available within 1 hour time situation reported,availability,3
+639,unless system non operational system shall present user notification informing system unavailable,availability,3
+3,product shall available normal business hour long user access client pc system available 99 time first six month operation,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+423,velkat staff available phone support 7am 7pm f provide technical support izogn administrator,availability,3
+220,product shall adhere corporate online availability schedule application brought within 98 scheduled outage per availability schedule,availability,3
+79,system shall achieve 95 time,availability,3
+293,aside server failure software product shall achieve 99 99 time,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+588,wcs system shall available time long ibm internal intranet w3 accessible wcs system available 95 time ibm internal intranet w3 available,availability,3
+423,velkat staff available phone support 7am 7pm f provide technical support izogn administrator,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+43,1000 access system system available 999 time,availability,3
+401,website shall available use 24 hour per day 365 day per year,availability,3
+548,system shall high availability every day year system must available use 12 00am 6 00pm day year,availability,3
+472,defect report available technical unit 24x7 basis,availability,3
+637,mortgage amortization schedule shall available customer within 15 second 95 time requested remaining time available within 20 second,availability,3
+548,system shall high availability every day year system must available use 12 00am 6 00pm day year,availability,3
+221,product shall achieve 98 uptime product shall fail 2 available online time,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+634,online payment system shall available use hour 6 00 11 00 p cst,availability,3
+403,movie shall streamed demand time day,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+421,system provide 24 hour 800 toll free number support customer,availability,3
+549,system must available use 7 00am 11 59pm day year,availability,3
+423,velkat staff available phone support 7am 7pm f provide technical support izogn administrator,availability,3
+641,online registration system shall permit backing registration database registration activity going,availability,3
+3,product shall available normal business hour long user access client pc system available 99 time first six month operation,availability,3
+635,online payment system shall achieve 100 hour mtbf mean time failure,availability,3
+638,automated teller machine shall least 99 0 percent available weekday 6 00 11 00 p local time machine shall least 99 95 percent available weekday 4 00 p 6 00 p local time,availability,3
+566,product shall available 99 time rationale avoid service interruption busiest customer service response period product shall available 99 99 time regular business day,availability,3
+548,system shall high availability every day year system must available use 12 00am 6 00pm day year,availability,3
+423,velkat staff available phone support 7am 7pm f provide technical support izogn administrator,availability,3
+401,website shall available use 24 hour per day 365 day per year,availability,3
+403,movie shall streamed demand time day,availability,3
+472,defect report available technical unit 24x7 basis,availability,3
+638,automated teller machine shall least 99 0 percent available weekday 6 00 11 00 p local time machine shall least 99 95 percent available weekday 4 00 p 6 00 p local time,availability,3
+421,system provide 24 hour 800 toll free number support customer,availability,3
+42,product shall available use 24 hour per day 365 day per year,availability,3
+588,wcs system shall available time long ibm internal intranet w3 accessible wcs system available 95 time ibm internal intranet w3 available,availability,3
+472,defect report available technical unit 24x7 basis,availability,3
+401,website shall available use 24 hour per day 365 day per year,availability,3
+638,automated teller machine shall least 99 0 percent available weekday 6 00 11 00 p local time machine shall least 99 95 percent available weekday 4 00 p 6 00 p local time,availability,3
+402,website shall achieve 99 5 time,availability,3
